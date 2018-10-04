@@ -1,0 +1,17 @@
+/*
+ * rf.h
+ *
+ *  Created on: 4 окт. 2018 г.
+ *      Author: shestakov.aa
+ */
+
+#include <ti/drivers/PIN.h>
+
+#ifndef RF_H_
+#define RF_H_
+
+
+void RfTaskInit(PIN_Handle inPinHandle);
+
+
+#endif /* RF_H_ */

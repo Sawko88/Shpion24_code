@@ -1,0 +1,15 @@
+/*
+ * gsm.h
+ *
+ *  Created on: 4 окт. 2018 г.
+ *      Author: shestakov.aa
+ */
+
+#ifndef GSM_H_
+#define GSM_H_
+
+
+void GsmInit(void);
+
+
+#endif /* GSM_H_ */

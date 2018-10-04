@@ -1,0 +1,64 @@
+/*
+ * rf.c
+ *
+ *  Created on: 4 окт. 2018 г.
+ *      Author: shestakov.aa
+ */
+
+#include "rf.h"
+#include <ti/sysbios/BIOS.h>
+#include <ti/sysbios/knl/Task.h>
+
+#define RFEASYLINKTX_ASYNC
+
+#define RF_TASK_STACK_SIZE    512
+#define RF_TASK_PRIORITY      3
+
+Task_Struct rfTask;    /* not static so you can see in ROV */
+static Task_Params rfTaskParams;
+static uint8_t rfTaskStack[RF_TASK_STACK_SIZE];
+
+
+#ifdef RFEASYLINKTX_ASYNC
+static Semaphore_Handle txDoneSem;
+#endif //RFEASYLINKTX_ASYNC
+
+#ifdef RFEASYLINKTX_ASYNC
+void txDoneCb(EasyLink_Status status)
+{
+    if (status == EasyLink_Status_Success)
+    {
+        /* Toggle LED1 to indicate TX */
+        PIN_setOutputValue(pinHandle, Board_PIN_LED1,!PIN_getOutputValue(Board_PIN_LED1));
+    }
+    else if(status == EasyLink_Status_Aborted)
+    {
+        /* Toggle LED2 to indicate command aborted */
+        PIN_setOutputValue(pinHandle, Board_PIN_LED2,!PIN_getOutputValue(Board_PIN_LED2));
+    }
+    else
+    {
+        /* Toggle LED1 and LED2 to indicate error */
+        PIN_setOutputValue(pinHandle, Board_PIN_LED1,!PIN_getOutputValue(Board_PIN_LED1));
+        PIN_setOutputValue(pinHandle, Board_PIN_LED2,!PIN_getOutputValue(Board_PIN_LED2));
+    }
+
+    Semaphore_post(txDoneSem);
+}
+#endif //RFEASYLINKTX_ASYNC
+
+
+void RfTaskInit(PIN_Handle inPinHandle){
+
+    pinHandle = inPinHandle;
+
+    Task_Params_init(&rfTaskParams);
+    rfTaskParams.stackSize = RF_TASK_STACK_SIZE;
+    rfTaskParams.priority = RF_TASK_PRIORITY;
+    rfTaskParams.stack = &rfTaskStack;
+    rfTaskParams.arg0 = (UInt)1000000;
+
+    Task_construct(&rfTask, rfEasyLinkTxFnx, &rfTaskParams, NULL);
+}
+
+

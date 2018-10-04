@@ -1,0 +1,13 @@
+#include "timer.h";
+#include <time.h>
+#include <ti/sysbios/hal/Seconds.h>
+
+
+
+#define TASK_STACK_SIZE_TIMER    512
+#define TASK_PRIORITY_TIMER      2
+
+
+void TimerTaskInit(void) {
+
+}

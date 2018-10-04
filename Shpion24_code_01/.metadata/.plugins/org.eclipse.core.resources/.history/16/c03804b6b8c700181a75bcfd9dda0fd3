@@ -1,0 +1,33 @@
+#include "timer.h";
+#include <time.h>
+#include <ti/sysbios/hal/Seconds.h>
+
+
+
+#define TASK_STACK_SIZE_TIMER    512
+#define TASK_PRIORITY_TIMER      2
+
+
+Task_Struct Task_timer;    /* not static so you can see in ROV */
+static Task_Params TaskParams_timer;
+static uint8_t TaskStack_timer[TASK_STACK_SIZE_TIMER];
+
+
+
+void timerFnx(UArg arg0, UArg arg1)
+{
+
+}
+
+
+void TimerTaskInit(void) {
+
+    Task_Params_init(&TaskParams_timer);
+    TaskParams_timer.stackSize = TASK_STACK_SIZE_UART;
+    TaskParams_timer.priority = TASK_PRIORITY_UART;
+    TaskParams_timer.stack = &txTaskStack_uart;
+    TaskParams_timer.arg0 = (UInt)1000000;
+
+    Task_construct(&Task_timer, timerFnx, &TaskParams_timer, NULL);
+
+}

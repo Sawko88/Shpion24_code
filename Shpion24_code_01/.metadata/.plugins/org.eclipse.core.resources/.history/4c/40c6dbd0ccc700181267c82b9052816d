@@ -1,0 +1,30 @@
+/*
+ * rf.c
+ *
+ *  Created on: 4 окт. 2018 г.
+ *      Author: shestakov.aa
+ */
+
+#include "rf.h"
+
+
+
+
+
+
+
+
+void RfTaskInit(PIN_Handle inPinHandle){
+
+    pinHandle = inPinHandle;
+
+    Task_Params_init(&txTaskParams);
+    txTaskParams.stackSize = RFEASYLINKTX_TASK_STACK_SIZE;
+    txTaskParams.priority = RFEASYLINKTX_TASK_PRIORITY;
+    txTaskParams.stack = &txTaskStack;
+    txTaskParams.arg0 = (UInt)1000000;
+
+    Task_construct(&txTask, rfEasyLinkTxFnx, &txTaskParams, NULL);
+}
+
+

@@ -1,0 +1,111 @@
+#include "uart.h"
+#include <stdint.h>
+#include <stddef.h>
+#include <ti/drivers/GPIO.h>
+#include <ti/drivers/UART.h>
+#include "Board.h"
+#include <ti/drivers/uart/UARTCC26XX.h>
+#include <pthread.h>
+
+
+#define THREADSTACKSIZE    1024
+#define MAX_NUM_RX_BYTES    1000   // Maximum RX bytes to receive in one go
+#define MAX_NUM_TX_BYTES    1000   // Maximum TX bytes to send in one go
+uint32_t wantedRxBytes;            // Number of bytes received so far
+uint8_t rxBuf[MAX_NUM_RX_BYTES];   // Receive buffer
+uint8_t txBuf[MAX_NUM_TX_BYTES];   // Transmit buffer
+const char  echoPrompt[] = "Echoing characters:\r\n";
+// Read callback function
+static void readCallback(UART_Handle handle, void *rxBuf, size_t size)
+{
+    // Make sure we received all expected bytes
+    if (size == wantedRxBytes) {
+        // Copy bytes from RX buffer to TX buffer
+        size_t i=0;
+       for(i = 0; i < size; i++){
+           txBuf[i] = ((uint8_t*)rxBuf)[i];
+       }
+       // Echo the bytes received back to transmitter
+       UART_write(handle, txBuf, size);
+       // Start another read, with size the same as it was during first call to
+       // UART_read()
+       UART_read(handle, rxBuf, wantedRxBytes);
+    }
+    else {
+        // Handle error or call to UART_readCancel()
+    }
+}
+// Write callback function
+static void writeCallback(UART_Handle handle, void *rxBuf, size_t size)
+{
+    // Do nothing
+}
+
+void *mainThread(void *arg0)
+{
+    UARTinit();
+}
+
+void UARTinit(){
+
+
+
+        UART_Handle handle;
+        UART_Params params;
+        // Init UART
+        GPIO_init();
+        UART_init();
+        // Specify non-default parameters
+        UART_Params_init(&params);
+        params.baudRate      = 115200;
+        params.writeMode     = UART_MODE_CALLBACK;
+        params.writeDataMode = UART_DATA_BINARY;
+        params.writeCallback = writeCallback;
+        params.readMode      = UART_MODE_CALLBACK;
+        params.readDataMode  = UART_DATA_BINARY;
+        params.readCallback  = readCallback;
+        // Open the UART and initiate the first read
+        handle = UART_open(Board_UART0, &params);
+
+        UART_control(handle, UARTCC26XX_CMD_RETURN_PARTIAL_ENABLE, NULL);
+        UART_write(handle, echoPrompt, sizeof(echoPrompt));
+        wantedRxBytes = 1;
+        int rxBytes = UART_read(handle, rxBuf, wantedRxBytes);
+        while(true); // Wait foreve
+}
+
+void UARTpthread(){
+    pthread_t           thread;
+    pthread_attr_t      attrs;
+    struct sched_param  priParam;
+    int                 retc;
+    int                 detachState;
+
+        pthread_attr_init(&attrs);
+        priParam.sched_priority = 1;
+
+           detachState = PTHREAD_CREATE_DETACHED;
+           retc = pthread_attr_setdetachstate(&attrs, detachState);
+           if (retc != 0) {
+               /* pthread_attr_setdetachstate() failed */
+               while (1);
+           }
+
+           pthread_attr_setschedparam(&attrs, &priParam);
+
+           retc |= pthread_attr_setstacksize(&attrs, THREADSTACKSIZE);
+           if (retc != 0) {
+               /* pthread_attr_setstacksize() failed */
+               while (1);
+           }
+
+           retc = pthread_create(&thread, &attrs, mainThread, NULL);
+           if (retc != 0) {
+               /* pthread_create() failed */
+               while (1);
+           }
+
+}
+
+
+

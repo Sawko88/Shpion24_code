@@ -1,0 +1,25 @@
+/*
+ * gsm.c
+ *
+ *  Created on: 4 окт. 2018 г.
+ *      Author: shestakov.aa
+ */
+
+#include "gsm.h"
+
+
+
+#define TASK_STACK_SIZE_GSM    512
+#define TASK_PRIORITY_GSM      3
+
+Task_Struct Task_gsm;    /* not static so you can see in ROV */
+static Task_Params TaskParams_gsm;
+static uint8_t TaskStack_gsm[TASK_STACK_SIZE_GSM];
+
+
+void GsmInit(void){
+
+
+}
+
+

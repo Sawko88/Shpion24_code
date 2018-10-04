@@ -1,0 +1,38 @@
+/*
+ * rf.c
+ *
+ *  Created on: 4 окт. 2018 г.
+ *      Author: shestakov.aa
+ */
+
+#include "rf.h"
+#include <ti/sysbios/BIOS.h>
+#include <ti/sysbios/knl/Task.h>
+
+#define RFEASYLINKTX_ASYNC
+
+#define RFEASYLINKTX_TASK_STACK_SIZE    512
+#define RFEASYLINKTX_TASK_PRIORITY      3
+
+Task_Struct txTask;    /* not static so you can see in ROV */
+static Task_Params txTaskParams;
+static uint8_t txTaskStack[RFEASYLINKTX_TASK_STACK_SIZE];
+
+
+
+
+
+void RfTaskInit(PIN_Handle inPinHandle){
+
+    pinHandle = inPinHandle;
+
+    Task_Params_init(&txTaskParams);
+    txTaskParams.stackSize = RFEASYLINKTX_TASK_STACK_SIZE;
+    txTaskParams.priority = RFEASYLINKTX_TASK_PRIORITY;
+    txTaskParams.stack = &txTaskStack;
+    txTaskParams.arg0 = (UInt)1000000;
+
+    Task_construct(&txTask, rfEasyLinkTxFnx, &txTaskParams, NULL);
+}
+
+
