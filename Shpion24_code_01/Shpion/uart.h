@@ -4,9 +4,16 @@
  *  Created on: 1 окт. 2018 г.
  *      Author: shestakov.aa
  */
+#include <ti/sysbios/knl/Queue.h>
 
 #ifndef UART_H_
 #define UART_H_
+
+typedef struct messU {
+      Queue_Elem _elem;
+      char* mess;
+      int size;
+} messU;
 
 void UARTinit(void);
 void UARTpthread(void);

@@ -1,0 +1,126 @@
+#include "uart.h"
+#include <stdint.h>
+#include <stddef.h>
+#include <ti/drivers/GPIO.h>
+#include <ti/drivers/UART.h>
+#include "Board.h"
+#include <ti/drivers/uart/UARTCC26XX.h>
+#include <pthread.h>
+#include <ti/sysbios/BIOS.h>
+#include <ti/sysbios/knl/Task.h>
+#include <ti/sysbios/knl/Semaphore.h>
+#include <ti/sysbios/knl/Clock.h>
+#include <xdc/std.h>
+#include <xdc/runtime/Assert.h>
+#include <xdc/runtime/Error.h>
+#include <xdc/runtime/System.h>
+#include <ti/sysbios/knl/Queue.h>
+
+
+#define MAX_NUM_RX_BYTES    100   // Maximum RX bytes to receive in one go
+#define MAX_NUM_TX_BYTES    100   // Maximum TX bytes to send in one go
+
+#define TASK_STACK_SIZE_UART    512
+#define TASK_PRIORITY_UART      2
+
+static Task_Struct txTask_uart;    /* not static so you can see in ROV */
+static Task_Params txTaskParams_uart;
+static uint8_t txTaskStack_uart[TASK_STACK_SIZE_UART];
+
+
+uint32_t wantedRxBytes;            // Number of bytes received so far
+uint8_t rxBuf[MAX_NUM_RX_BYTES];   // Receive buffer
+uint8_t txBuf[MAX_NUM_TX_BYTES];   // Transmit buffer
+const char  echoPrompt[] = "Echoing characters:\r\n";
+int countRX = 0;
+// Read callback function
+
+
+typedef struct Mess {
+      Queue_Elem _elem;
+      char mess[100];
+      int
+} Rec;
+
+
+static void readCallback(UART_Handle handle, void *rxBuf, size_t size)
+{
+
+    //UART_write(handle, rxBuf, wantedRxBytes);
+    txBuf[countRX] = ((uint8_t*)rxBuf)[0];
+    if ( txBuf[countRX] != 0x0A){
+        countRX++;
+        if (countRX >= MAX_NUM_TX_BYTES){
+            countRX = 0;
+        }
+    } else {
+        UART_write(handle, txBuf, countRX);
+        countRX = 0;
+    }
+
+
+}
+// Write callback function
+static void writeCallback(UART_Handle handle, void *rxBuf, size_t size)
+{
+    // Do nothing
+}
+
+
+void UARTinit(void){
+
+
+    UART_Handle handle;
+    UART_Params params;
+        // Init UART
+    GPIO_init();
+    UART_init();
+        // Specify non-default parameters
+    UART_Params_init(&params);
+    params.baudRate      = 115200;
+    params.writeMode     = UART_MODE_CALLBACK;
+    params.writeDataMode = UART_DATA_BINARY;
+    params.writeCallback = writeCallback;
+    params.readMode      = UART_MODE_CALLBACK;
+    params.readDataMode  = UART_DATA_BINARY;
+    params.readCallback  = readCallback;
+        // Open the UART and initiate the first read
+    handle = UART_open(Board_UART0, &params);
+
+    //UART_control(handle, UARTCC26XX_CMD_RETURN_PARTIAL_ENABLE, NULL);
+    UART_write(handle, echoPrompt, sizeof(echoPrompt));
+    wantedRxBytes = 1;
+    int rxBytes = UART_read(handle, rxBuf, wantedRxBytes);
+    while(true){
+
+        int rxBytes = UART_read(handle, rxBuf, wantedRxBytes);
+        //UART_write(handle, rxBuf, wantedRxBytes);
+    }
+
+    //while(true); // Wait foreve
+}
+
+
+
+void uartFnx(UArg arg0, UArg arg1)
+{
+    UARTinit();
+}
+
+
+void UARTtask(void){
+
+
+
+    Task_Params_init(&txTaskParams_uart);
+    txTaskParams_uart.stackSize = TASK_STACK_SIZE_UART;
+    txTaskParams_uart.priority = TASK_PRIORITY_UART;
+    txTaskParams_uart.stack = &txTaskStack_uart;
+    txTaskParams_uart.arg0 = (UInt)1000000;
+
+    Task_construct(&txTask_uart, uartFnx, &txTaskParams_uart, NULL);
+
+}
+
+
+

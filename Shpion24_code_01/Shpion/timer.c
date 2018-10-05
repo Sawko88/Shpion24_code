@@ -10,7 +10,7 @@
 #include <xdc/std.h>
 #include <stdbool.h>
 
-#define TASK_STACK_SIZE_TIMER    1024
+#define TASK_STACK_SIZE_TIMER    512
 #define TASK_PRIORITY_TIMER      3
 
 
@@ -26,7 +26,7 @@ void timerFnx(UArg arg0, UArg arg1)
 
        second = Seconds_get();
 
-       //System_printf("Task timer = %d\r\n", second);
+       System_printf("Task timer = %d\r\n", second);
 
        Task_sleep((1000000 / Clock_tickPeriod));
     }

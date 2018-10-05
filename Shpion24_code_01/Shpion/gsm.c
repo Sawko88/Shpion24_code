@@ -23,7 +23,7 @@ static uint8_t taskStack_gsm[TASK_STACK_SIZE_GSM];
 void gsmFnx(UArg arg0, UArg arg1)
 {
     while(1){
-        //System_printf("Task gsm \r\n");
+        System_printf("Task gsm \r\n");
         Task_sleep((1000000 / Clock_tickPeriod));
     }
 }

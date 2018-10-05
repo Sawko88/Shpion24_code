@@ -7971,3 +7971,1578 @@ gmake[2]: Nothing to be done for 'all'.
 gmake[1]: 'Shpion.out' is up to date.
 
 **** Build Finished ****
+
+**** Clean-only build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 clean -O 
+ 
+cleaning ../src/sysbios ...
+DEL /F  "tirtos_builds_CC1310_LAUNCHXL_release_ccs.lib"  "../src/makefile.libs" "configPkg\linker.cmd" "configPkg\compiler.opt" 
+RMDIR /S/Q  "configPkg\" 
+Не удается найти E:\Shestakov\shpion24\Shpion24_code\Shpion24_code_01\tirtos_builds_CC1310_LAUNCHXL_release_ccs\Debug\tirtos_builds_CC1310_LAUNCHXL_release_ccs.lib
+Не удается найти E:\Shestakov\shpion24\Shpion24_code\Shpion24_code_01\tirtos_builds_CC1310_LAUNCHXL_release_ccs\src\../src/makefile.libs
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project Shpion ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 clean -O 
+ 
+DEL /F  "Shpion.hex"  "Shpion.out" 
+DEL /F "CC1310_LAUNCHXL.obj" "CC1310_LAUNCHXL_fxns.obj" "ccfg.obj" "gsm.obj" "main.obj" "timer.obj" "uart.obj" "easylink\EasyLink.obj" "smartrf_settings\smartrf_settings.obj" "smartrf_settings\smartrf_settings_predefined.obj" 
+DEL /F "CC1310_LAUNCHXL.d" "CC1310_LAUNCHXL_fxns.d" "ccfg.d" "gsm.d" "main.d" "timer.d" "uart.d" "easylink\EasyLink.d" "smartrf_settings\smartrf_settings.d" "smartrf_settings\smartrf_settings_predefined.d" 
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../release.cfg"
+Invoking: XDCtools
+"C:/ti/xdctools_3_50_07_20_core/xs" --xdcpath="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source;C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages;" xdc.tools.configuro -o configPkg -t ti.targets.arm.elf.M3 -p ti.platforms.simplelink:CC1310F128 -r release -c "C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS" --compileOptions " -DDeviceFamily_CC13X0 " "../release.cfg"
+making package.mak (because of package.bld) ...
+generating interfaces for package configPkg (because package/package.xdc.inc is older than package.xdc) ...
+configuring release.xem3 from package/cfg/release_pem3.cfg ...
+generating custom ROM library makefile ... 
+Starting build of library sources ...
+making E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Entering directory `E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/src/sysbios'
+clem3 C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/BIOS.c ...
+asmem3 C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/family/arm/m3/Hwi_asm.sv7M ...
+asmem3 C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/family/arm/m3/Hwi_asm_switch.sv7M ...
+asmem3 C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/family/arm/m3/IntrinsicsSupport_asm.sv7M ...
+asmem3 C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/family/arm/m3/TaskSupport_asm.sv7M ...
+arem3 rom_sysbios.obj m3_Hwi_asm.obj m3_Hwi_asm_switch.obj m3_IntrinsicsSupport_asm.obj m3_TaskSupport_asm.obj ...
+gmake[1]: Leaving directory `E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/src/sysbios'
+Build of libraries done.
+clem3 package/cfg/release_pem3.c ...
+Finished building: "../release.cfg"
+ 
+Скопировано файлов:         1.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Shpion ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../CC1310_LAUNCHXL_fxns.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="CC1310_LAUNCHXL_fxns.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../CC1310_LAUNCHXL_fxns.c"
+Finished building: "../CC1310_LAUNCHXL_fxns.c"
+ 
+Building file: "../CC1310_LAUNCHXL.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="CC1310_LAUNCHXL.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../CC1310_LAUNCHXL.c"
+Finished building: "../CC1310_LAUNCHXL.c"
+ 
+Building file: "../ccfg.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="ccfg.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../ccfg.c"
+Finished building: "../ccfg.c"
+ 
+Building file: "../gsm.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="gsm.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../gsm.c"
+Finished building: "../gsm.c"
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="main.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../main.c"
+Finished building: "../main.c"
+ 
+Building file: "../timer.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="timer.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../timer.c"
+Finished building: "../timer.c"
+ 
+Building file: "../uart.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="uart.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../uart.c"
+Finished building: "../uart.c"
+ 
+Building file: "../easylink/EasyLink.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="easylink/EasyLink.d_raw" --obj_directory="easylink" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../easylink/EasyLink.c"
+Finished building: "../easylink/EasyLink.c"
+ 
+Building file: "../smartrf_settings/smartrf_settings.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="smartrf_settings/smartrf_settings.d_raw" --obj_directory="smartrf_settings" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../smartrf_settings/smartrf_settings.c"
+Finished building: "../smartrf_settings/smartrf_settings.c"
+ 
+Building file: "../smartrf_settings/smartrf_settings_predefined.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="smartrf_settings/smartrf_settings_predefined.d_raw" --obj_directory="smartrf_settings" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../smartrf_settings/smartrf_settings_predefined.c"
+Finished building: "../smartrf_settings/smartrf_settings_predefined.c"
+ 
+Building target: "Shpion.out"
+Invoking: ARM Linker
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on -z -m"Shpion.map" -i"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/lib" --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Shpion_linkInfo.xml" --rom_model -o "Shpion.out" "./CC1310_LAUNCHXL.obj" "./CC1310_LAUNCHXL_fxns.obj" "./ccfg.obj" "./gsm.obj" "./main.obj" "./timer.obj" "./uart.obj" "./easylink/EasyLink.obj" "./smartrf_settings/smartrf_settings.obj" "./smartrf_settings/smartrf_settings_predefined.obj" "../CC1310_LAUNCHXL_TIRTOS.cmd" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/display/lib/display.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/grlib/lib/ccs/m3/grlib.a" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/rf/lib/rf_multiMode_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/lib/drivers_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/pdm/lib/pdm_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/dpl/lib/dpl_cc13x0.aem3" -l"E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/linker.cmd" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/devices/cc13x0/driverlib/bin/ccs/driverlib.lib" -llibc.a 
+<Linking>
+Finished building target: "Shpion.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Shpion ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'Shpion.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Shpion ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../CC1310_LAUNCHXL_fxns.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="CC1310_LAUNCHXL_fxns.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../CC1310_LAUNCHXL_fxns.c"
+Finished building: "../CC1310_LAUNCHXL_fxns.c"
+ 
+Building file: "../CC1310_LAUNCHXL.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="CC1310_LAUNCHXL.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../CC1310_LAUNCHXL.c"
+Finished building: "../CC1310_LAUNCHXL.c"
+ 
+Building file: "../ccfg.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="ccfg.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../ccfg.c"
+Finished building: "../ccfg.c"
+ 
+Building file: "../gsm.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="gsm.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../gsm.c"
+Finished building: "../gsm.c"
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="main.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../main.c"
+Finished building: "../main.c"
+ 
+Building file: "../timer.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="timer.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../timer.c"
+Finished building: "../timer.c"
+ 
+Building file: "../uart.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="uart.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../uart.c"
+Finished building: "../uart.c"
+ 
+Building file: "../smartrf_settings/smartrf_settings.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="smartrf_settings/smartrf_settings.d_raw" --obj_directory="smartrf_settings" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../smartrf_settings/smartrf_settings.c"
+Finished building: "../smartrf_settings/smartrf_settings.c"
+ 
+Building file: "../easylink/EasyLink.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="easylink/EasyLink.d_raw" --obj_directory="easylink" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../easylink/EasyLink.c"
+Finished building: "../easylink/EasyLink.c"
+ 
+Building file: "../smartrf_settings/smartrf_settings_predefined.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="smartrf_settings/smartrf_settings_predefined.d_raw" --obj_directory="smartrf_settings" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../smartrf_settings/smartrf_settings_predefined.c"
+Finished building: "../smartrf_settings/smartrf_settings_predefined.c"
+ 
+Building target: "Shpion.out"
+Invoking: ARM Linker
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on -z -m"Shpion.map" -i"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/lib" --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Shpion_linkInfo.xml" --rom_model -o "Shpion.out" "./CC1310_LAUNCHXL.obj" "./CC1310_LAUNCHXL_fxns.obj" "./ccfg.obj" "./gsm.obj" "./main.obj" "./timer.obj" "./uart.obj" "./easylink/EasyLink.obj" "./smartrf_settings/smartrf_settings.obj" "./smartrf_settings/smartrf_settings_predefined.obj" "../CC1310_LAUNCHXL_TIRTOS.cmd" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/display/lib/display.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/grlib/lib/ccs/m3/grlib.a" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/rf/lib/rf_multiMode_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/lib/drivers_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/pdm/lib/pdm_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/dpl/lib/dpl_cc13x0.aem3" -l"E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/linker.cmd" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/devices/cc13x0/driverlib/bin/ccs/driverlib.lib" -llibc.a 
+<Linking>
+Finished building target: "Shpion.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Shpion ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../gsm.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="gsm.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../gsm.c"
+Finished building: "../gsm.c"
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="main.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../main.c"
+Finished building: "../main.c"
+ 
+Building file: "../timer.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="timer.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../timer.c"
+Finished building: "../timer.c"
+ 
+Building file: "../uart.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="uart.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../uart.c"
+Finished building: "../uart.c"
+ 
+Building target: "Shpion.out"
+Invoking: ARM Linker
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on -z -m"Shpion.map" -i"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/lib" --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Shpion_linkInfo.xml" --rom_model -o "Shpion.out" "./CC1310_LAUNCHXL.obj" "./CC1310_LAUNCHXL_fxns.obj" "./ccfg.obj" "./gsm.obj" "./main.obj" "./timer.obj" "./uart.obj" "./easylink/EasyLink.obj" "./smartrf_settings/smartrf_settings.obj" "./smartrf_settings/smartrf_settings_predefined.obj" "../CC1310_LAUNCHXL_TIRTOS.cmd" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/display/lib/display.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/grlib/lib/ccs/m3/grlib.a" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/rf/lib/rf_multiMode_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/lib/drivers_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/pdm/lib/pdm_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/dpl/lib/dpl_cc13x0.aem3" -l"E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/linker.cmd" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/devices/cc13x0/driverlib/bin/ccs/driverlib.lib" -llibc.a 
+<Linking>
+Finished building target: "Shpion.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Shpion ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="main.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "Shpion.out"
+Invoking: ARM Linker
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on -z -m"Shpion.map" -i"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/lib" --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Shpion_linkInfo.xml" --rom_model -o "Shpion.out" "./CC1310_LAUNCHXL.obj" "./CC1310_LAUNCHXL_fxns.obj" "./ccfg.obj" "./gsm.obj" "./main.obj" "./timer.obj" "./uart.obj" "./easylink/EasyLink.obj" "./smartrf_settings/smartrf_settings.obj" "./smartrf_settings/smartrf_settings_predefined.obj" "../CC1310_LAUNCHXL_TIRTOS.cmd" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/display/lib/display.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/grlib/lib/ccs/m3/grlib.a" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/rf/lib/rf_multiMode_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/lib/drivers_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/pdm/lib/pdm_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/dpl/lib/dpl_cc13x0.aem3" -l"E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/linker.cmd" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/devices/cc13x0/driverlib/bin/ccs/driverlib.lib" -llibc.a 
+<Linking>
+Finished building target: "Shpion.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Shpion ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../gsm.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="gsm.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../gsm.c"
+Finished building: "../gsm.c"
+ 
+Building target: "Shpion.out"
+Invoking: ARM Linker
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on -z -m"Shpion.map" -i"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/lib" --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Shpion_linkInfo.xml" --rom_model -o "Shpion.out" "./CC1310_LAUNCHXL.obj" "./CC1310_LAUNCHXL_fxns.obj" "./ccfg.obj" "./gsm.obj" "./main.obj" "./timer.obj" "./uart.obj" "./easylink/EasyLink.obj" "./smartrf_settings/smartrf_settings.obj" "./smartrf_settings/smartrf_settings_predefined.obj" "../CC1310_LAUNCHXL_TIRTOS.cmd" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/display/lib/display.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/grlib/lib/ccs/m3/grlib.a" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/rf/lib/rf_multiMode_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/lib/drivers_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/pdm/lib/pdm_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/dpl/lib/dpl_cc13x0.aem3" -l"E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/linker.cmd" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/devices/cc13x0/driverlib/bin/ccs/driverlib.lib" -llibc.a 
+<Linking>
+Finished building target: "Shpion.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Shpion ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'Shpion.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Скопировано файлов:         1.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+Building file: "../release.cfg"
+Invoking: XDCtools
+"C:/ti/xdctools_3_50_07_20_core/xs" --xdcpath="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source;C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages;" xdc.tools.configuro -o configPkg -t ti.targets.arm.elf.M3 -p ti.platforms.simplelink:CC1310F128 -r release -c "C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS" --compileOptions " -DDeviceFamily_CC13X0 " "../release.cfg"
+configuring release.xem3 from package/cfg/release_pem3.cfg ...
+generating custom ROM library makefile ... 
+Starting build of library sources ...
+making E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Entering directory `E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/src/sysbios'
+clem3 C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/BIOS.c ...
+asmem3 C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/family/arm/m3/Hwi_asm.sv7M ...
+asmem3 C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/family/arm/m3/Hwi_asm_switch.sv7M ...
+asmem3 C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/family/arm/m3/IntrinsicsSupport_asm.sv7M ...
+asmem3 C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/family/arm/m3/TaskSupport_asm.sv7M ...
+arem3 rom_sysbios.obj m3_Hwi_asm.obj m3_Hwi_asm_switch.obj m3_IntrinsicsSupport_asm.obj m3_TaskSupport_asm.obj ...
+gmake[1]: Leaving directory `E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/src/sysbios'
+Build of libraries done.
+clem3 package/cfg/release_pem3.c ...
+Finished building: "../release.cfg"
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Shpion ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../gsm.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="gsm.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../gsm.c"
+Finished building: "../gsm.c"
+ 
+Building file: "../timer.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="timer.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../timer.c"
+Finished building: "../timer.c"
+ 
+Building target: "Shpion.out"
+Invoking: ARM Linker
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on -z -m"Shpion.map" -i"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/lib" --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Shpion_linkInfo.xml" --rom_model -o "Shpion.out" "./CC1310_LAUNCHXL.obj" "./CC1310_LAUNCHXL_fxns.obj" "./ccfg.obj" "./gsm.obj" "./main.obj" "./timer.obj" "./uart.obj" "./easylink/EasyLink.obj" "./smartrf_settings/smartrf_settings.obj" "./smartrf_settings/smartrf_settings_predefined.obj" "../CC1310_LAUNCHXL_TIRTOS.cmd" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/display/lib/display.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/grlib/lib/ccs/m3/grlib.a" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/rf/lib/rf_multiMode_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/lib/drivers_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/pdm/lib/pdm_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/dpl/lib/dpl_cc13x0.aem3" -l"E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/linker.cmd" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/devices/cc13x0/driverlib/bin/ccs/driverlib.lib" -llibc.a 
+<Linking>
+Finished building target: "Shpion.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Shpion ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../uart.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="uart.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../uart.c"
+ 
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'uart.obj' failed
+"../uart.c", line 45: error #20: identifier "messU" is undefined
+1 error detected in the compilation of "../uart.c".
+gmake: *** [uart.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Shpion ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../uart.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="uart.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../uart.c"
+Finished building: "../uart.c"
+ 
+Building target: "Shpion.out"
+Invoking: ARM Linker
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on -z -m"Shpion.map" -i"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/lib" --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Shpion_linkInfo.xml" --rom_model -o "Shpion.out" "./CC1310_LAUNCHXL.obj" "./CC1310_LAUNCHXL_fxns.obj" "./ccfg.obj" "./gsm.obj" "./main.obj" "./timer.obj" "./uart.obj" "./easylink/EasyLink.obj" "./smartrf_settings/smartrf_settings.obj" "./smartrf_settings/smartrf_settings_predefined.obj" "../CC1310_LAUNCHXL_TIRTOS.cmd" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/display/lib/display.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/grlib/lib/ccs/m3/grlib.a" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/rf/lib/rf_multiMode_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/lib/drivers_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/pdm/lib/pdm_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/dpl/lib/dpl_cc13x0.aem3" -l"E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/linker.cmd" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/devices/cc13x0/driverlib/bin/ccs/driverlib.lib" -llibc.a 
+<Linking>
+Finished building target: "Shpion.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Shpion ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../uart.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="uart.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../uart.c"
+ 
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'uart.obj' failed
+"../uart.c", line 59: error #45: expression must have pointer type
+"../uart.c", line 60: error #45: expression must have pointer type
+2 errors detected in the compilation of "../uart.c".
+gmake: *** [uart.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Shpion ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../uart.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="uart.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../uart.c"
+ 
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'uart.obj' failed
+"../uart.c", line 59: error #45: expression must have pointer type
+"../uart.c", line 59: warning #770-D: conversion from pointer to smaller integer
+"../uart.c", line 60: error #45: expression must have pointer type
+2 errors detected in the compilation of "../uart.c".
+gmake: *** [uart.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Shpion ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../uart.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="uart.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../uart.c"
+ 
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'uart.obj' failed
+"../uart.c", line 59: error #45: expression must have pointer type
+"../uart.c", line 60: error #45: expression must have pointer type
+2 errors detected in the compilation of "../uart.c".
+gmake: *** [uart.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Shpion ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../uart.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="uart.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../uart.c"
+ 
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'uart.obj' failed
+"../uart.c", line 59: error #45: expression must have pointer type
+"../uart.c", line 60: error #45: expression must have pointer type
+2 errors detected in the compilation of "../uart.c".
+gmake: *** [uart.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Shpion ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../uart.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="uart.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../uart.c"
+ 
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'uart.obj' failed
+"../uart.c", line 59: error #45: expression must have pointer type
+"../uart.c", line 59: warning #770-D: conversion from pointer to smaller integer
+"../uart.c", line 60: error #45: expression must have pointer type
+2 errors detected in the compilation of "../uart.c".
+gmake: *** [uart.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Shpion ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../uart.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="uart.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../uart.c"
+ 
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'uart.obj' failed
+"../uart.c", line 59: error #45: expression must have pointer type
+"../uart.c", line 59: warning #770-D: conversion from pointer to smaller integer
+"../uart.c", line 60: error #45: expression must have pointer type
+2 errors detected in the compilation of "../uart.c".
+gmake: *** [uart.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Shpion ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../uart.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="uart.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../uart.c"
+ 
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'uart.obj' failed
+"../uart.c", line 59: error #45: expression must have pointer type
+"../uart.c", line 60: error #45: expression must have pointer type
+2 errors detected in the compilation of "../uart.c".
+gmake: *** [uart.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Shpion ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../uart.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="uart.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../uart.c"
+ 
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'uart.obj' failed
+"../uart.c", line 59: error #45: expression must have pointer type
+"../uart.c", line 60: error #45: expression must have pointer type
+2 errors detected in the compilation of "../uart.c".
+gmake: *** [uart.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Shpion ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../uart.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="uart.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../uart.c"
+ 
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'uart.obj' failed
+"../uart.c", line 59: error #45: expression must have pointer type
+"../uart.c", line 60: error #45: expression must have pointer type
+"../uart.c", line 46: warning #552-D: variable "q" was set but never used
+2 errors detected in the compilation of "../uart.c".
+gmake: *** [uart.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Shpion ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="main.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:37: recipe for target 'main.obj' failed
+"..\uart.h", line 12: error #20: identifier "Queue_Elem" is undefined
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+Building file: "../uart.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="uart.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../uart.c"
+ 
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'uart.obj' failed
+"..\uart.h", line 12: error #20: identifier "Queue_Elem" is undefined
+"../uart.c", line 55: error #45: expression must have pointer type
+"../uart.c", line 56: error #45: expression must have pointer type
+"../uart.c", line 42: warning #552-D: variable "q" was set but never used
+3 errors detected in the compilation of "../uart.c".
+gmake: *** [uart.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Shpion ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../uart.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="uart.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../uart.c"
+ 
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'uart.obj' failed
+"../uart.c", line 55: error #45: expression must have pointer type
+"../uart.c", line 56: error #45: expression must have pointer type
+"../uart.c", line 42: warning #552-D: variable "q" was set but never used
+2 errors detected in the compilation of "../uart.c".
+gmake: *** [uart.obj] Error 1
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="main.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../main.c"
+Finished building: "../main.c"
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Shpion ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../uart.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="uart.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../uart.c"
+ 
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'uart.obj' failed
+"../uart.c", line 56: error #45: expression must have pointer type
+"../uart.c", line 42: warning #552-D: variable "q" was set but never used
+1 error detected in the compilation of "../uart.c".
+gmake: *** [uart.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Shpion ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../uart.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="uart.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../uart.c"
+"../uart.c", line 42: warning #552-D: variable "q" was set but never used
+Finished building: "../uart.c"
+ 
+Building target: "Shpion.out"
+Invoking: ARM Linker
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on -z -m"Shpion.map" -i"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/lib" --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Shpion_linkInfo.xml" --rom_model -o "Shpion.out" "./CC1310_LAUNCHXL.obj" "./CC1310_LAUNCHXL_fxns.obj" "./ccfg.obj" "./gsm.obj" "./main.obj" "./timer.obj" "./uart.obj" "./easylink/EasyLink.obj" "./smartrf_settings/smartrf_settings.obj" "./smartrf_settings/smartrf_settings_predefined.obj" "../CC1310_LAUNCHXL_TIRTOS.cmd" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/display/lib/display.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/grlib/lib/ccs/m3/grlib.a" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/rf/lib/rf_multiMode_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/lib/drivers_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/pdm/lib/pdm_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/dpl/lib/dpl_cc13x0.aem3" -l"E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/linker.cmd" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/devices/cc13x0/driverlib/bin/ccs/driverlib.lib" -llibc.a 
+<Linking>
+Finished building target: "Shpion.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Shpion ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../uart.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="uart.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../uart.c"
+"../uart.c", line 55: warning #515-D: a value of type "uint8_t (*)[100]" cannot be assigned to an entity of type "char *"
+"../uart.c", line 42: warning #552-D: variable "q" was set but never used
+Finished building: "../uart.c"
+ 
+Building target: "Shpion.out"
+Invoking: ARM Linker
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on -z -m"Shpion.map" -i"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/lib" --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Shpion_linkInfo.xml" --rom_model -o "Shpion.out" "./CC1310_LAUNCHXL.obj" "./CC1310_LAUNCHXL_fxns.obj" "./ccfg.obj" "./gsm.obj" "./main.obj" "./timer.obj" "./uart.obj" "./easylink/EasyLink.obj" "./smartrf_settings/smartrf_settings.obj" "./smartrf_settings/smartrf_settings_predefined.obj" "../CC1310_LAUNCHXL_TIRTOS.cmd" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/display/lib/display.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/grlib/lib/ccs/m3/grlib.a" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/rf/lib/rf_multiMode_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/lib/drivers_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/pdm/lib/pdm_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/dpl/lib/dpl_cc13x0.aem3" -l"E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/linker.cmd" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/devices/cc13x0/driverlib/bin/ccs/driverlib.lib" -llibc.a 
+<Linking>
+Finished building target: "Shpion.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Shpion ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../uart.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="uart.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../uart.c"
+"../uart.c", line 55: warning #770-D: conversion from pointer to smaller integer
+"../uart.c", line 55: warning #515-D: a value of type "char" cannot be assigned to an entity of type "char *"
+"../uart.c", line 42: warning #552-D: variable "q" was set but never used
+Finished building: "../uart.c"
+ 
+Building target: "Shpion.out"
+Invoking: ARM Linker
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on -z -m"Shpion.map" -i"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/lib" --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Shpion_linkInfo.xml" --rom_model -o "Shpion.out" "./CC1310_LAUNCHXL.obj" "./CC1310_LAUNCHXL_fxns.obj" "./ccfg.obj" "./gsm.obj" "./main.obj" "./timer.obj" "./uart.obj" "./easylink/EasyLink.obj" "./smartrf_settings/smartrf_settings.obj" "./smartrf_settings/smartrf_settings_predefined.obj" "../CC1310_LAUNCHXL_TIRTOS.cmd" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/display/lib/display.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/grlib/lib/ccs/m3/grlib.a" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/rf/lib/rf_multiMode_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/lib/drivers_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/pdm/lib/pdm_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/dpl/lib/dpl_cc13x0.aem3" -l"E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/linker.cmd" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/devices/cc13x0/driverlib/bin/ccs/driverlib.lib" -llibc.a 
+<Linking>
+Finished building target: "Shpion.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Shpion ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../uart.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="uart.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../uart.c"
+"../uart.c", line 42: warning #552-D: variable "q" was set but never used
+Finished building: "../uart.c"
+ 
+Building target: "Shpion.out"
+Invoking: ARM Linker
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on -z -m"Shpion.map" -i"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/lib" --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Shpion_linkInfo.xml" --rom_model -o "Shpion.out" "./CC1310_LAUNCHXL.obj" "./CC1310_LAUNCHXL_fxns.obj" "./ccfg.obj" "./gsm.obj" "./main.obj" "./timer.obj" "./uart.obj" "./easylink/EasyLink.obj" "./smartrf_settings/smartrf_settings.obj" "./smartrf_settings/smartrf_settings_predefined.obj" "../CC1310_LAUNCHXL_TIRTOS.cmd" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/display/lib/display.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/grlib/lib/ccs/m3/grlib.a" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/rf/lib/rf_multiMode_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/lib/drivers_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/pdm/lib/pdm_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/dpl/lib/dpl_cc13x0.aem3" -l"E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/linker.cmd" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/devices/cc13x0/driverlib/bin/ccs/driverlib.lib" -llibc.a 
+<Linking>
+Finished building target: "Shpion.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Shpion ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../uart.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="uart.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../uart.c"
+"../uart.c", line 57: warning #169-D: argument of type "messU *" is incompatible with parameter of type "ti_sysbios_knl_Queue_Elem *"
+Finished building: "../uart.c"
+ 
+Building target: "Shpion.out"
+Invoking: ARM Linker
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on -z -m"Shpion.map" -i"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/lib" --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Shpion_linkInfo.xml" --rom_model -o "Shpion.out" "./CC1310_LAUNCHXL.obj" "./CC1310_LAUNCHXL_fxns.obj" "./ccfg.obj" "./gsm.obj" "./main.obj" "./timer.obj" "./uart.obj" "./easylink/EasyLink.obj" "./smartrf_settings/smartrf_settings.obj" "./smartrf_settings/smartrf_settings_predefined.obj" "../CC1310_LAUNCHXL_TIRTOS.cmd" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/display/lib/display.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/grlib/lib/ccs/m3/grlib.a" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/rf/lib/rf_multiMode_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/lib/drivers_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/pdm/lib/pdm_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/dpl/lib/dpl_cc13x0.aem3" -l"E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/linker.cmd" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/devices/cc13x0/driverlib/bin/ccs/driverlib.lib" -llibc.a 
+<Linking>
+Finished building target: "Shpion.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Shpion ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../uart.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="uart.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../uart.c"
+ 
+>> Compilation failure
+subdir_rules.mk:51: recipe for target 'uart.obj' failed
+"../uart.c", line 57: error #169: argument of type "messU" is incompatible with parameter of type "ti_sysbios_knl_Queue_Elem *"
+1 error detected in the compilation of "../uart.c".
+gmake: *** [uart.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Shpion ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../uart.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="uart.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../uart.c"
+"../uart.c", line 57: warning #169-D: argument of type "messU *" is incompatible with parameter of type "ti_sysbios_knl_Queue_Elem *"
+Finished building: "../uart.c"
+ 
+Building target: "Shpion.out"
+Invoking: ARM Linker
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on -z -m"Shpion.map" -i"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/lib" --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Shpion_linkInfo.xml" --rom_model -o "Shpion.out" "./CC1310_LAUNCHXL.obj" "./CC1310_LAUNCHXL_fxns.obj" "./ccfg.obj" "./gsm.obj" "./main.obj" "./timer.obj" "./uart.obj" "./easylink/EasyLink.obj" "./smartrf_settings/smartrf_settings.obj" "./smartrf_settings/smartrf_settings_predefined.obj" "../CC1310_LAUNCHXL_TIRTOS.cmd" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/display/lib/display.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/grlib/lib/ccs/m3/grlib.a" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/rf/lib/rf_multiMode_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/lib/drivers_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/pdm/lib/pdm_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/dpl/lib/dpl_cc13x0.aem3" -l"E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/linker.cmd" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/devices/cc13x0/driverlib/bin/ccs/driverlib.lib" -llibc.a 
+<Linking>
+Finished building target: "Shpion.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Shpion ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'Shpion.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Shpion ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../CC1310_LAUNCHXL_fxns.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="CC1310_LAUNCHXL_fxns.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../CC1310_LAUNCHXL_fxns.c"
+Finished building: "../CC1310_LAUNCHXL_fxns.c"
+ 
+Building file: "../CC1310_LAUNCHXL.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="CC1310_LAUNCHXL.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../CC1310_LAUNCHXL.c"
+Finished building: "../CC1310_LAUNCHXL.c"
+ 
+Building file: "../ccfg.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="ccfg.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../ccfg.c"
+Finished building: "../ccfg.c"
+ 
+Building file: "../gsm.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="gsm.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../gsm.c"
+Finished building: "../gsm.c"
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="main.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../main.c"
+Finished building: "../main.c"
+ 
+Building file: "../timer.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="timer.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../timer.c"
+Finished building: "../timer.c"
+ 
+Building file: "../uart.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="uart.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../uart.c"
+"../uart.c", line 57: warning #169-D: argument of type "messU *" is incompatible with parameter of type "ti_sysbios_knl_Queue_Elem *"
+Finished building: "../uart.c"
+ 
+Building file: "../easylink/EasyLink.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="easylink/EasyLink.d_raw" --obj_directory="easylink" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../easylink/EasyLink.c"
+Finished building: "../easylink/EasyLink.c"
+ 
+Building file: "../smartrf_settings/smartrf_settings.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="smartrf_settings/smartrf_settings.d_raw" --obj_directory="smartrf_settings" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../smartrf_settings/smartrf_settings.c"
+Finished building: "../smartrf_settings/smartrf_settings.c"
+ 
+Building file: "../smartrf_settings/smartrf_settings_predefined.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="smartrf_settings/smartrf_settings_predefined.d_raw" --obj_directory="smartrf_settings" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../smartrf_settings/smartrf_settings_predefined.c"
+Finished building: "../smartrf_settings/smartrf_settings_predefined.c"
+ 
+Building target: "Shpion.out"
+Invoking: ARM Linker
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on -z -m"Shpion.map" -i"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/lib" --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Shpion_linkInfo.xml" --rom_model -o "Shpion.out" "./CC1310_LAUNCHXL.obj" "./CC1310_LAUNCHXL_fxns.obj" "./ccfg.obj" "./gsm.obj" "./main.obj" "./timer.obj" "./uart.obj" "./easylink/EasyLink.obj" "./smartrf_settings/smartrf_settings.obj" "./smartrf_settings/smartrf_settings_predefined.obj" "../CC1310_LAUNCHXL_TIRTOS.cmd" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/display/lib/display.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/grlib/lib/ccs/m3/grlib.a" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/rf/lib/rf_multiMode_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/lib/drivers_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/pdm/lib/pdm_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/dpl/lib/dpl_cc13x0.aem3" -l"E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/linker.cmd" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/devices/cc13x0/driverlib/bin/ccs/driverlib.lib" -llibc.a 
+<Linking>
+Finished building target: "Shpion.out"
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project Shpion ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 clean -O 
+ 
+DEL /F  "Shpion.hex"  "Shpion.out" 
+DEL /F "CC1310_LAUNCHXL.obj" "CC1310_LAUNCHXL_fxns.obj" "ccfg.obj" "gsm.obj" "main.obj" "timer.obj" "uart.obj" "easylink\EasyLink.obj" "smartrf_settings\smartrf_settings.obj" "smartrf_settings\smartrf_settings_predefined.obj" 
+DEL /F "CC1310_LAUNCHXL.d" "CC1310_LAUNCHXL_fxns.d" "ccfg.d" "gsm.d" "main.d" "timer.d" "uart.d" "easylink\EasyLink.d" "smartrf_settings\smartrf_settings.d" "smartrf_settings\smartrf_settings_predefined.d" 
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Shpion ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../CC1310_LAUNCHXL_fxns.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="CC1310_LAUNCHXL_fxns.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../CC1310_LAUNCHXL_fxns.c"
+Finished building: "../CC1310_LAUNCHXL_fxns.c"
+ 
+Building file: "../CC1310_LAUNCHXL.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="CC1310_LAUNCHXL.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../CC1310_LAUNCHXL.c"
+Finished building: "../CC1310_LAUNCHXL.c"
+ 
+Building file: "../ccfg.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="ccfg.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../ccfg.c"
+Finished building: "../ccfg.c"
+ 
+Building file: "../gsm.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="gsm.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../gsm.c"
+Finished building: "../gsm.c"
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="main.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../main.c"
+Finished building: "../main.c"
+ 
+Building file: "../timer.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="timer.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../timer.c"
+Finished building: "../timer.c"
+ 
+Building file: "../uart.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="uart.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../uart.c"
+"../uart.c", line 57: warning #169-D: argument of type "messU *" is incompatible with parameter of type "ti_sysbios_knl_Queue_Elem *"
+Finished building: "../uart.c"
+ 
+Building file: "../smartrf_settings/smartrf_settings.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="smartrf_settings/smartrf_settings.d_raw" --obj_directory="smartrf_settings" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../smartrf_settings/smartrf_settings.c"
+Finished building: "../smartrf_settings/smartrf_settings.c"
+ 
+Building file: "../easylink/EasyLink.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="easylink/EasyLink.d_raw" --obj_directory="easylink" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../easylink/EasyLink.c"
+Finished building: "../easylink/EasyLink.c"
+ 
+Building file: "../smartrf_settings/smartrf_settings_predefined.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="smartrf_settings/smartrf_settings_predefined.d_raw" --obj_directory="smartrf_settings" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../smartrf_settings/smartrf_settings_predefined.c"
+Finished building: "../smartrf_settings/smartrf_settings_predefined.c"
+ 
+Building target: "Shpion.out"
+Invoking: ARM Linker
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on -z -m"Shpion.map" -i"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/lib" --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Shpion_linkInfo.xml" --rom_model -o "Shpion.out" "./CC1310_LAUNCHXL.obj" "./CC1310_LAUNCHXL_fxns.obj" "./ccfg.obj" "./gsm.obj" "./main.obj" "./timer.obj" "./uart.obj" "./easylink/EasyLink.obj" "./smartrf_settings/smartrf_settings.obj" "./smartrf_settings/smartrf_settings_predefined.obj" "../CC1310_LAUNCHXL_TIRTOS.cmd" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/display/lib/display.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/grlib/lib/ccs/m3/grlib.a" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/rf/lib/rf_multiMode_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/lib/drivers_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/pdm/lib/pdm_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/dpl/lib/dpl_cc13x0.aem3" -l"E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/linker.cmd" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/devices/cc13x0/driverlib/bin/ccs/driverlib.lib" -llibc.a 
+<Linking>
+Finished building target: "Shpion.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Shpion ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'Shpion.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Shpion ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'Shpion.out' is up to date.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project Shpion ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 clean -O 
+ 
+DEL /F  "Shpion.hex"  "Shpion.out" 
+DEL /F "CC1310_LAUNCHXL.obj" "CC1310_LAUNCHXL_fxns.obj" "ccfg.obj" "gsm.obj" "main.obj" "timer.obj" "uart.obj" "easylink\EasyLink.obj" "smartrf_settings\smartrf_settings.obj" "smartrf_settings\smartrf_settings_predefined.obj" 
+DEL /F "CC1310_LAUNCHXL.d" "CC1310_LAUNCHXL_fxns.d" "ccfg.d" "gsm.d" "main.d" "timer.d" "uart.d" "easylink\EasyLink.d" "smartrf_settings\smartrf_settings.d" "smartrf_settings\smartrf_settings_predefined.d" 
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Shpion ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../CC1310_LAUNCHXL_fxns.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="CC1310_LAUNCHXL_fxns.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../CC1310_LAUNCHXL_fxns.c"
+Finished building: "../CC1310_LAUNCHXL_fxns.c"
+ 
+Building file: "../CC1310_LAUNCHXL.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="CC1310_LAUNCHXL.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../CC1310_LAUNCHXL.c"
+Finished building: "../CC1310_LAUNCHXL.c"
+ 
+Building file: "../ccfg.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="ccfg.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../ccfg.c"
+Finished building: "../ccfg.c"
+ 
+Building file: "../gsm.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="gsm.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../gsm.c"
+Finished building: "../gsm.c"
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="main.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../main.c"
+Finished building: "../main.c"
+ 
+Building file: "../timer.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="timer.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../timer.c"
+Finished building: "../timer.c"
+ 
+Building file: "../uart.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="uart.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../uart.c"
+"../uart.c", line 57: warning #169-D: argument of type "messU *" is incompatible with parameter of type "ti_sysbios_knl_Queue_Elem *"
+Finished building: "../uart.c"
+ 
+Building file: "../easylink/EasyLink.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="easylink/EasyLink.d_raw" --obj_directory="easylink" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../easylink/EasyLink.c"
+Finished building: "../easylink/EasyLink.c"
+ 
+Building file: "../smartrf_settings/smartrf_settings.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="smartrf_settings/smartrf_settings.d_raw" --obj_directory="smartrf_settings" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../smartrf_settings/smartrf_settings.c"
+Finished building: "../smartrf_settings/smartrf_settings.c"
+ 
+Building file: "../smartrf_settings/smartrf_settings_predefined.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="smartrf_settings/smartrf_settings_predefined.d_raw" --obj_directory="smartrf_settings" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../smartrf_settings/smartrf_settings_predefined.c"
+Finished building: "../smartrf_settings/smartrf_settings_predefined.c"
+ 
+Building target: "Shpion.out"
+Invoking: ARM Linker
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on -z -m"Shpion.map" -i"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/lib" --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Shpion_linkInfo.xml" --rom_model -o "Shpion.out" "./CC1310_LAUNCHXL.obj" "./CC1310_LAUNCHXL_fxns.obj" "./ccfg.obj" "./gsm.obj" "./main.obj" "./timer.obj" "./uart.obj" "./easylink/EasyLink.obj" "./smartrf_settings/smartrf_settings.obj" "./smartrf_settings/smartrf_settings_predefined.obj" "../CC1310_LAUNCHXL_TIRTOS.cmd" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/display/lib/display.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/grlib/lib/ccs/m3/grlib.a" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/rf/lib/rf_multiMode_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/lib/drivers_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/pdm/lib/pdm_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/dpl/lib/dpl_cc13x0.aem3" -l"E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/linker.cmd" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/devices/cc13x0/driverlib/bin/ccs/driverlib.lib" -llibc.a 
+<Linking>
+Finished building target: "Shpion.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project tirtos_builds_CC1310_LAUNCHXL_release_ccs ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[1]: Nothing to be done for 'all'.
+gmake[1]: Nothing to be done for 'configPkg/linker.cmd'.
+making ../src/sysbios/rom_sysbios.aem3 ...
+gmake[2]: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Shpion ****
+
+"C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../CC1310_LAUNCHXL_fxns.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="CC1310_LAUNCHXL_fxns.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../CC1310_LAUNCHXL_fxns.c"
+Finished building: "../CC1310_LAUNCHXL_fxns.c"
+ 
+Building file: "../CC1310_LAUNCHXL.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="CC1310_LAUNCHXL.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../CC1310_LAUNCHXL.c"
+Finished building: "../CC1310_LAUNCHXL.c"
+ 
+Building file: "../ccfg.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="ccfg.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../ccfg.c"
+Finished building: "../ccfg.c"
+ 
+Building file: "../gsm.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="gsm.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../gsm.c"
+Finished building: "../gsm.c"
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="main.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../main.c"
+Finished building: "../main.c"
+ 
+Building file: "../timer.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="timer.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../timer.c"
+Finished building: "../timer.c"
+ 
+Building file: "../uart.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="uart.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../uart.c"
+"../uart.c", line 57: warning #169-D: argument of type "messU *" is incompatible with parameter of type "ti_sysbios_knl_Queue_Elem *"
+Finished building: "../uart.c"
+ 
+Building file: "../smartrf_settings/smartrf_settings.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="smartrf_settings/smartrf_settings.d_raw" --obj_directory="smartrf_settings" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../smartrf_settings/smartrf_settings.c"
+Finished building: "../smartrf_settings/smartrf_settings.c"
+ 
+Building file: "../easylink/EasyLink.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="easylink/EasyLink.d_raw" --obj_directory="easylink" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../easylink/EasyLink.c"
+Finished building: "../easylink/EasyLink.c"
+ 
+Building file: "../smartrf_settings/smartrf_settings_predefined.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="smartrf_settings/smartrf_settings_predefined.d_raw" --obj_directory="smartrf_settings" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../smartrf_settings/smartrf_settings_predefined.c"
+Finished building: "../smartrf_settings/smartrf_settings_predefined.c"
+ 
+Building target: "Shpion.out"
+Invoking: ARM Linker
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on -z -m"Shpion.map" -i"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/lib" --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Shpion_linkInfo.xml" --rom_model -o "Shpion.out" "./CC1310_LAUNCHXL.obj" "./CC1310_LAUNCHXL_fxns.obj" "./ccfg.obj" "./gsm.obj" "./main.obj" "./timer.obj" "./uart.obj" "./easylink/EasyLink.obj" "./smartrf_settings/smartrf_settings.obj" "./smartrf_settings/smartrf_settings_predefined.obj" "../CC1310_LAUNCHXL_TIRTOS.cmd" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/display/lib/display.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/grlib/lib/ccs/m3/grlib.a" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/rf/lib/rf_multiMode_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/lib/drivers_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/pdm/lib/pdm_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/dpl/lib/dpl_cc13x0.aem3" -l"E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/linker.cmd" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/devices/cc13x0/driverlib/bin/ccs/driverlib.lib" -llibc.a 
+<Linking>
+Finished building target: "Shpion.out"
+ 
+
+**** Build Finished ****

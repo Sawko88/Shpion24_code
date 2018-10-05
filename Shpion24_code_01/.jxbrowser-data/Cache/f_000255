@@ -1,0 +1,600 @@
+[
+  {
+    "downloadLink": "api/bundle?vid=com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38&download=true&analyticsDevice=undefined&analyticsDevtool=undefined&analyticsPath=Software%2FSimpleLink%20CC13x0%20SDK%2FExamples%2FDevelopment%20Tools%2FCC1310%20LaunchPad%2FTI-RTOS%20Kernel%20(SYS_BIOS)%2Fmemory%2FTI-RTOS%2FGCC%20Compiler%2Fmemory",
+    "makeofflineLink": "api/bundles?vids=com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38",
+    "removeofflineLink": "api/resources?id=ut-qdPhjcwNuXI&path=Software/SimpleLink CC13x0 SDK/Examples/Development Tools/CC1310 LaunchPad/TI-RTOS Kernel (SYS_BIOS)/memory/TI-RTOS/GCC Compiler/memory&removeoffline=true",
+    "kernel": [
+      "tirtos"
+    ],
+    "name": "Board.h",
+    "resourceType": "file",
+    "coreTypes": [
+      "Cortex M.CC1310F128"
+    ],
+    "devtools": [
+      "CC1310 LaunchPad"
+    ],
+    "advanced": {
+      "overrideProjectSpecDeviceId": true
+    },
+    "compiler": [
+      "gcc"
+    ],
+    "_id": "ut-qdPhjcwNuXI",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "dependencies": [],
+    "devtools_category": [
+      "CC1310 LaunchPad"
+    ],
+    "link": "api/linkTo/ut-qdPhjcwNuXI?analyticsDevice=undefined&analyticsDevtool=undefined&analyticsPath=Software%2FSimpleLink%20CC13x0%20SDK%2FExamples%2FDevelopment%20Tools%2FCC1310%20LaunchPad%2FTI-RTOS%20Kernel%20(SYS_BIOS)%2Fmemory%2FTI-RTOS%2FGCC%20Compiler%2Fmemory&extname=.h",
+    "package": "SimpleLink CC13x0 SDK",
+    "packageId": "com.ti.SIMPLELINK_CC13X0_SDK",
+    "packageVersion": "2.20.00.38",
+    "packageUId": "com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38",
+    "packagePath": "simplelink_cc13x0_sdk_2_20_00_38",
+    "allowPartialDownload": false,
+    "license": "simplelink_cc13x0_sdk_2_20_00_38/license_simplelink_cc13x0_sdk_2_20_00_38.txt",
+    "linkType": "local",
+    "implictDependencyFile": "simplelink_cc13x0_sdk_2_20_00_38/.metadata/.tirex/.dependencies/spec_146.dependency.tirex.json",
+    "parentID": "ut-cfVxEft1OA4",
+    "isIncludedFile": true,
+    "type": "resource",
+    "text": "Board.h",
+    "url": "/api/resources?path=Software/SimpleLink%20CC13x0%20SDK/Examples/Development%20Tools/CC1310%20LaunchPad/TI-RTOS%20Kernel%20(SYS_BIOS)/memory/TI-RTOS/GCC%20Compiler/memory&package=com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38::com.ti.SIMPLELINK_CC13X2_SDK__2.20.00.71::com.ti.SIMPLELINK_MSP432_SDK__2.30.00.14::com.ti.SIMPLELINK_MSP432E4_SDK__2.30.00.14::com.ti.SIMPLELINK_CC26X2_SDK__2.20.00.36::com.ti.SIMPLELINK_CC2640R2_SDK__2.20.00.49::com.ti.SIMPLELINK_CC32XX_SDK__2.30.00.05::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.50.00.62::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.40.00.42::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.60.00.07::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::com.ti.SIMPLELINK_SDK_TI_15_4_STACK_PLUGIN__2.20.00.05::com.ti.SIMPLELINK_ZIGBEE_SDK_PLUGIN__2.20.00.06::energia.core__18.0.0::energia.tool.arm-none-eabi-gcc__6.3.1-20170620::energia.tool.ino2cpp__1.0.3::energia.boards.cc13xx__5.20.0::energia.boards.cc3220emt__5.6.2::energia.boards.msp432r__5.6.3::com.ti.WATSON_MSP432E4__1.00.01.01::com.ti.WATSON_CC32XX__1.00.01.01::com.ti.SAIL__1.20.00.02::com.ti.AZURE_CC32XX__2.00.00.07::com.ti.AZURE_MSP432E4__2.00.00.07::com.ti.AWS_CC32XX__2.00.00.09::c2000ware_software_package__1.00.05.00::digital_power_c2000ware_sdk_software_package__1.01.00.00::powerSUITE_software_package__2.02.00.00::com.ti.mmwave_industrial_toolbox__2.5.2::com.ti.mmwave_automotive_toolbox__2.4.1::xdctools__3.50.03.33::msp430ware__3.80.05.04::tm4c__2.1.4.178::sitara__1.02.00.00::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::tirtos_tivac__2.16.00.08::tirtos_simplelink__2.13.01.09::sysbios__6.50.01.12::com.ti.SIMPLELINK_SDK_NFC_PLUGIN__2.20.00.08::com.ti.AWS_MSP432E4__2.00.00.09",
+    "packageOrder": 23,
+    "offline": "true"
+  },
+  {
+    "downloadLink": "api/bundle?vid=com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38&download=true&analyticsDevice=undefined&analyticsDevtool=undefined&analyticsPath=Software%2FSimpleLink%20CC13x0%20SDK%2FExamples%2FDevelopment%20Tools%2FCC1310%20LaunchPad%2FTI-RTOS%20Kernel%20(SYS_BIOS)%2Fmemory%2FTI-RTOS%2FGCC%20Compiler%2Fmemory",
+    "makeofflineLink": "api/bundles?vids=com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38",
+    "removeofflineLink": "api/resources?id=ut-YUCNOHv6AUA&path=Software/SimpleLink CC13x0 SDK/Examples/Development Tools/CC1310 LaunchPad/TI-RTOS Kernel (SYS_BIOS)/memory/TI-RTOS/GCC Compiler/memory&removeoffline=true",
+    "kernel": [
+      "tirtos"
+    ],
+    "name": "CC1310_LAUNCHXL.c",
+    "resourceType": "file",
+    "coreTypes": [
+      "Cortex M.CC1310F128"
+    ],
+    "devtools": [
+      "CC1310 LaunchPad"
+    ],
+    "advanced": {
+      "overrideProjectSpecDeviceId": true
+    },
+    "compiler": [
+      "gcc"
+    ],
+    "_id": "ut-YUCNOHv6AUA",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "dependencies": [],
+    "devtools_category": [
+      "CC1310 LaunchPad"
+    ],
+    "link": "api/linkTo/ut-YUCNOHv6AUA?analyticsDevice=undefined&analyticsDevtool=undefined&analyticsPath=Software%2FSimpleLink%20CC13x0%20SDK%2FExamples%2FDevelopment%20Tools%2FCC1310%20LaunchPad%2FTI-RTOS%20Kernel%20(SYS_BIOS)%2Fmemory%2FTI-RTOS%2FGCC%20Compiler%2Fmemory&extname=.c",
+    "package": "SimpleLink CC13x0 SDK",
+    "packageId": "com.ti.SIMPLELINK_CC13X0_SDK",
+    "packageVersion": "2.20.00.38",
+    "packageUId": "com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38",
+    "packagePath": "simplelink_cc13x0_sdk_2_20_00_38",
+    "allowPartialDownload": false,
+    "license": "simplelink_cc13x0_sdk_2_20_00_38/license_simplelink_cc13x0_sdk_2_20_00_38.txt",
+    "linkType": "local",
+    "implictDependencyFile": "simplelink_cc13x0_sdk_2_20_00_38/.metadata/.tirex/.dependencies/spec_146.dependency.tirex.json",
+    "parentID": "ut-cfVxEft1OA4",
+    "isIncludedFile": true,
+    "type": "resource",
+    "text": "CC1310_LAUNCHXL.c",
+    "url": "/api/resources?path=Software/SimpleLink%20CC13x0%20SDK/Examples/Development%20Tools/CC1310%20LaunchPad/TI-RTOS%20Kernel%20(SYS_BIOS)/memory/TI-RTOS/GCC%20Compiler/memory&package=com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38::com.ti.SIMPLELINK_CC13X2_SDK__2.20.00.71::com.ti.SIMPLELINK_MSP432_SDK__2.30.00.14::com.ti.SIMPLELINK_MSP432E4_SDK__2.30.00.14::com.ti.SIMPLELINK_CC26X2_SDK__2.20.00.36::com.ti.SIMPLELINK_CC2640R2_SDK__2.20.00.49::com.ti.SIMPLELINK_CC32XX_SDK__2.30.00.05::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.50.00.62::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.40.00.42::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.60.00.07::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::com.ti.SIMPLELINK_SDK_TI_15_4_STACK_PLUGIN__2.20.00.05::com.ti.SIMPLELINK_ZIGBEE_SDK_PLUGIN__2.20.00.06::energia.core__18.0.0::energia.tool.arm-none-eabi-gcc__6.3.1-20170620::energia.tool.ino2cpp__1.0.3::energia.boards.cc13xx__5.20.0::energia.boards.cc3220emt__5.6.2::energia.boards.msp432r__5.6.3::com.ti.WATSON_MSP432E4__1.00.01.01::com.ti.WATSON_CC32XX__1.00.01.01::com.ti.SAIL__1.20.00.02::com.ti.AZURE_CC32XX__2.00.00.07::com.ti.AZURE_MSP432E4__2.00.00.07::com.ti.AWS_CC32XX__2.00.00.09::c2000ware_software_package__1.00.05.00::digital_power_c2000ware_sdk_software_package__1.01.00.00::powerSUITE_software_package__2.02.00.00::com.ti.mmwave_industrial_toolbox__2.5.2::com.ti.mmwave_automotive_toolbox__2.4.1::xdctools__3.50.03.33::msp430ware__3.80.05.04::tm4c__2.1.4.178::sitara__1.02.00.00::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::tirtos_tivac__2.16.00.08::tirtos_simplelink__2.13.01.09::sysbios__6.50.01.12::com.ti.SIMPLELINK_SDK_NFC_PLUGIN__2.20.00.08::com.ti.AWS_MSP432E4__2.00.00.09",
+    "packageOrder": 23,
+    "offline": "true"
+  },
+  {
+    "downloadLink": "api/bundle?vid=com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38&download=true&analyticsDevice=undefined&analyticsDevtool=undefined&analyticsPath=Software%2FSimpleLink%20CC13x0%20SDK%2FExamples%2FDevelopment%20Tools%2FCC1310%20LaunchPad%2FTI-RTOS%20Kernel%20(SYS_BIOS)%2Fmemory%2FTI-RTOS%2FGCC%20Compiler%2Fmemory",
+    "makeofflineLink": "api/bundles?vids=com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38",
+    "removeofflineLink": "api/resources?id=ut-ePAFx7byhEw&path=Software/SimpleLink CC13x0 SDK/Examples/Development Tools/CC1310 LaunchPad/TI-RTOS Kernel (SYS_BIOS)/memory/TI-RTOS/GCC Compiler/memory&removeoffline=true",
+    "kernel": [
+      "tirtos"
+    ],
+    "name": "CC1310_LAUNCHXL.h",
+    "resourceType": "file",
+    "coreTypes": [
+      "Cortex M.CC1310F128"
+    ],
+    "devtools": [
+      "CC1310 LaunchPad"
+    ],
+    "advanced": {
+      "overrideProjectSpecDeviceId": true
+    },
+    "compiler": [
+      "gcc"
+    ],
+    "_id": "ut-ePAFx7byhEw",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "dependencies": [],
+    "devtools_category": [
+      "CC1310 LaunchPad"
+    ],
+    "link": "api/linkTo/ut-ePAFx7byhEw?analyticsDevice=undefined&analyticsDevtool=undefined&analyticsPath=Software%2FSimpleLink%20CC13x0%20SDK%2FExamples%2FDevelopment%20Tools%2FCC1310%20LaunchPad%2FTI-RTOS%20Kernel%20(SYS_BIOS)%2Fmemory%2FTI-RTOS%2FGCC%20Compiler%2Fmemory&extname=.h",
+    "package": "SimpleLink CC13x0 SDK",
+    "packageId": "com.ti.SIMPLELINK_CC13X0_SDK",
+    "packageVersion": "2.20.00.38",
+    "packageUId": "com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38",
+    "packagePath": "simplelink_cc13x0_sdk_2_20_00_38",
+    "allowPartialDownload": false,
+    "license": "simplelink_cc13x0_sdk_2_20_00_38/license_simplelink_cc13x0_sdk_2_20_00_38.txt",
+    "linkType": "local",
+    "implictDependencyFile": "simplelink_cc13x0_sdk_2_20_00_38/.metadata/.tirex/.dependencies/spec_146.dependency.tirex.json",
+    "parentID": "ut-cfVxEft1OA4",
+    "isIncludedFile": true,
+    "type": "resource",
+    "text": "CC1310_LAUNCHXL.h",
+    "url": "/api/resources?path=Software/SimpleLink%20CC13x0%20SDK/Examples/Development%20Tools/CC1310%20LaunchPad/TI-RTOS%20Kernel%20(SYS_BIOS)/memory/TI-RTOS/GCC%20Compiler/memory&package=com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38::com.ti.SIMPLELINK_CC13X2_SDK__2.20.00.71::com.ti.SIMPLELINK_MSP432_SDK__2.30.00.14::com.ti.SIMPLELINK_MSP432E4_SDK__2.30.00.14::com.ti.SIMPLELINK_CC26X2_SDK__2.20.00.36::com.ti.SIMPLELINK_CC2640R2_SDK__2.20.00.49::com.ti.SIMPLELINK_CC32XX_SDK__2.30.00.05::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.50.00.62::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.40.00.42::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.60.00.07::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::com.ti.SIMPLELINK_SDK_TI_15_4_STACK_PLUGIN__2.20.00.05::com.ti.SIMPLELINK_ZIGBEE_SDK_PLUGIN__2.20.00.06::energia.core__18.0.0::energia.tool.arm-none-eabi-gcc__6.3.1-20170620::energia.tool.ino2cpp__1.0.3::energia.boards.cc13xx__5.20.0::energia.boards.cc3220emt__5.6.2::energia.boards.msp432r__5.6.3::com.ti.WATSON_MSP432E4__1.00.01.01::com.ti.WATSON_CC32XX__1.00.01.01::com.ti.SAIL__1.20.00.02::com.ti.AZURE_CC32XX__2.00.00.07::com.ti.AZURE_MSP432E4__2.00.00.07::com.ti.AWS_CC32XX__2.00.00.09::c2000ware_software_package__1.00.05.00::digital_power_c2000ware_sdk_software_package__1.01.00.00::powerSUITE_software_package__2.02.00.00::com.ti.mmwave_industrial_toolbox__2.5.2::com.ti.mmwave_automotive_toolbox__2.4.1::xdctools__3.50.03.33::msp430ware__3.80.05.04::tm4c__2.1.4.178::sitara__1.02.00.00::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::tirtos_tivac__2.16.00.08::tirtos_simplelink__2.13.01.09::sysbios__6.50.01.12::com.ti.SIMPLELINK_SDK_NFC_PLUGIN__2.20.00.08::com.ti.AWS_MSP432E4__2.00.00.09",
+    "packageOrder": 23,
+    "offline": "true"
+  },
+  {
+    "downloadLink": "api/bundle?vid=com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38&download=true&analyticsDevice=undefined&analyticsDevtool=undefined&analyticsPath=Software%2FSimpleLink%20CC13x0%20SDK%2FExamples%2FDevelopment%20Tools%2FCC1310%20LaunchPad%2FTI-RTOS%20Kernel%20(SYS_BIOS)%2Fmemory%2FTI-RTOS%2FGCC%20Compiler%2Fmemory",
+    "makeofflineLink": "api/bundles?vids=com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38",
+    "removeofflineLink": "api/resources?id=ut-g3RstwtcQB8&path=Software/SimpleLink CC13x0 SDK/Examples/Development Tools/CC1310 LaunchPad/TI-RTOS Kernel (SYS_BIOS)/memory/TI-RTOS/GCC Compiler/memory&removeoffline=true",
+    "kernel": [
+      "tirtos"
+    ],
+    "name": "CC1310_LAUNCHXL_TIRTOS.lds",
+    "resourceType": "file",
+    "coreTypes": [
+      "Cortex M.CC1310F128"
+    ],
+    "devtools": [
+      "CC1310 LaunchPad"
+    ],
+    "advanced": {
+      "overrideProjectSpecDeviceId": true
+    },
+    "compiler": [
+      "gcc"
+    ],
+    "_id": "ut-g3RstwtcQB8",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "dependencies": [],
+    "devtools_category": [
+      "CC1310 LaunchPad"
+    ],
+    "link": "api/linkTo/ut-g3RstwtcQB8?analyticsDevice=undefined&analyticsDevtool=undefined&analyticsPath=Software%2FSimpleLink%20CC13x0%20SDK%2FExamples%2FDevelopment%20Tools%2FCC1310%20LaunchPad%2FTI-RTOS%20Kernel%20(SYS_BIOS)%2Fmemory%2FTI-RTOS%2FGCC%20Compiler%2Fmemory&extname=.lds",
+    "package": "SimpleLink CC13x0 SDK",
+    "packageId": "com.ti.SIMPLELINK_CC13X0_SDK",
+    "packageVersion": "2.20.00.38",
+    "packageUId": "com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38",
+    "packagePath": "simplelink_cc13x0_sdk_2_20_00_38",
+    "allowPartialDownload": false,
+    "license": "simplelink_cc13x0_sdk_2_20_00_38/license_simplelink_cc13x0_sdk_2_20_00_38.txt",
+    "linkType": "local",
+    "implictDependencyFile": "simplelink_cc13x0_sdk_2_20_00_38/.metadata/.tirex/.dependencies/spec_146.dependency.tirex.json",
+    "parentID": "ut-cfVxEft1OA4",
+    "isIncludedFile": true,
+    "type": "resource",
+    "text": "CC1310_LAUNCHXL_TIRTOS.lds",
+    "url": "/api/resources?path=Software/SimpleLink%20CC13x0%20SDK/Examples/Development%20Tools/CC1310%20LaunchPad/TI-RTOS%20Kernel%20(SYS_BIOS)/memory/TI-RTOS/GCC%20Compiler/memory&package=com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38::com.ti.SIMPLELINK_CC13X2_SDK__2.20.00.71::com.ti.SIMPLELINK_MSP432_SDK__2.30.00.14::com.ti.SIMPLELINK_MSP432E4_SDK__2.30.00.14::com.ti.SIMPLELINK_CC26X2_SDK__2.20.00.36::com.ti.SIMPLELINK_CC2640R2_SDK__2.20.00.49::com.ti.SIMPLELINK_CC32XX_SDK__2.30.00.05::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.50.00.62::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.40.00.42::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.60.00.07::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::com.ti.SIMPLELINK_SDK_TI_15_4_STACK_PLUGIN__2.20.00.05::com.ti.SIMPLELINK_ZIGBEE_SDK_PLUGIN__2.20.00.06::energia.core__18.0.0::energia.tool.arm-none-eabi-gcc__6.3.1-20170620::energia.tool.ino2cpp__1.0.3::energia.boards.cc13xx__5.20.0::energia.boards.cc3220emt__5.6.2::energia.boards.msp432r__5.6.3::com.ti.WATSON_MSP432E4__1.00.01.01::com.ti.WATSON_CC32XX__1.00.01.01::com.ti.SAIL__1.20.00.02::com.ti.AZURE_CC32XX__2.00.00.07::com.ti.AZURE_MSP432E4__2.00.00.07::com.ti.AWS_CC32XX__2.00.00.09::c2000ware_software_package__1.00.05.00::digital_power_c2000ware_sdk_software_package__1.01.00.00::powerSUITE_software_package__2.02.00.00::com.ti.mmwave_industrial_toolbox__2.5.2::com.ti.mmwave_automotive_toolbox__2.4.1::xdctools__3.50.03.33::msp430ware__3.80.05.04::tm4c__2.1.4.178::sitara__1.02.00.00::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::tirtos_tivac__2.16.00.08::tirtos_simplelink__2.13.01.09::sysbios__6.50.01.12::com.ti.SIMPLELINK_SDK_NFC_PLUGIN__2.20.00.08::com.ti.AWS_MSP432E4__2.00.00.09",
+    "packageOrder": 23,
+    "offline": "true"
+  },
+  {
+    "downloadLink": "api/bundle?vid=com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38&download=true&analyticsDevice=undefined&analyticsDevtool=undefined&analyticsPath=Software%2FSimpleLink%20CC13x0%20SDK%2FExamples%2FDevelopment%20Tools%2FCC1310%20LaunchPad%2FTI-RTOS%20Kernel%20(SYS_BIOS)%2Fmemory%2FTI-RTOS%2FGCC%20Compiler%2Fmemory",
+    "makeofflineLink": "api/bundles?vids=com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38",
+    "removeofflineLink": "api/resources?id=ut-sirfItw_RxU&path=Software/SimpleLink CC13x0 SDK/Examples/Development Tools/CC1310 LaunchPad/TI-RTOS Kernel (SYS_BIOS)/memory/TI-RTOS/GCC Compiler/memory&removeoffline=true",
+    "kernel": [
+      "tirtos"
+    ],
+    "name": "CC1310_LAUNCHXL_fxns.c",
+    "resourceType": "file",
+    "coreTypes": [
+      "Cortex M.CC1310F128"
+    ],
+    "devtools": [
+      "CC1310 LaunchPad"
+    ],
+    "advanced": {
+      "overrideProjectSpecDeviceId": true
+    },
+    "compiler": [
+      "gcc"
+    ],
+    "_id": "ut-sirfItw_RxU",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "dependencies": [],
+    "devtools_category": [
+      "CC1310 LaunchPad"
+    ],
+    "link": "api/linkTo/ut-sirfItw_RxU?analyticsDevice=undefined&analyticsDevtool=undefined&analyticsPath=Software%2FSimpleLink%20CC13x0%20SDK%2FExamples%2FDevelopment%20Tools%2FCC1310%20LaunchPad%2FTI-RTOS%20Kernel%20(SYS_BIOS)%2Fmemory%2FTI-RTOS%2FGCC%20Compiler%2Fmemory&extname=.c",
+    "package": "SimpleLink CC13x0 SDK",
+    "packageId": "com.ti.SIMPLELINK_CC13X0_SDK",
+    "packageVersion": "2.20.00.38",
+    "packageUId": "com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38",
+    "packagePath": "simplelink_cc13x0_sdk_2_20_00_38",
+    "allowPartialDownload": false,
+    "license": "simplelink_cc13x0_sdk_2_20_00_38/license_simplelink_cc13x0_sdk_2_20_00_38.txt",
+    "linkType": "local",
+    "implictDependencyFile": "simplelink_cc13x0_sdk_2_20_00_38/.metadata/.tirex/.dependencies/spec_146.dependency.tirex.json",
+    "parentID": "ut-cfVxEft1OA4",
+    "isIncludedFile": true,
+    "type": "resource",
+    "text": "CC1310_LAUNCHXL_fxns.c",
+    "url": "/api/resources?path=Software/SimpleLink%20CC13x0%20SDK/Examples/Development%20Tools/CC1310%20LaunchPad/TI-RTOS%20Kernel%20(SYS_BIOS)/memory/TI-RTOS/GCC%20Compiler/memory&package=com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38::com.ti.SIMPLELINK_CC13X2_SDK__2.20.00.71::com.ti.SIMPLELINK_MSP432_SDK__2.30.00.14::com.ti.SIMPLELINK_MSP432E4_SDK__2.30.00.14::com.ti.SIMPLELINK_CC26X2_SDK__2.20.00.36::com.ti.SIMPLELINK_CC2640R2_SDK__2.20.00.49::com.ti.SIMPLELINK_CC32XX_SDK__2.30.00.05::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.50.00.62::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.40.00.42::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.60.00.07::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::com.ti.SIMPLELINK_SDK_TI_15_4_STACK_PLUGIN__2.20.00.05::com.ti.SIMPLELINK_ZIGBEE_SDK_PLUGIN__2.20.00.06::energia.core__18.0.0::energia.tool.arm-none-eabi-gcc__6.3.1-20170620::energia.tool.ino2cpp__1.0.3::energia.boards.cc13xx__5.20.0::energia.boards.cc3220emt__5.6.2::energia.boards.msp432r__5.6.3::com.ti.WATSON_MSP432E4__1.00.01.01::com.ti.WATSON_CC32XX__1.00.01.01::com.ti.SAIL__1.20.00.02::com.ti.AZURE_CC32XX__2.00.00.07::com.ti.AZURE_MSP432E4__2.00.00.07::com.ti.AWS_CC32XX__2.00.00.09::c2000ware_software_package__1.00.05.00::digital_power_c2000ware_sdk_software_package__1.01.00.00::powerSUITE_software_package__2.02.00.00::com.ti.mmwave_industrial_toolbox__2.5.2::com.ti.mmwave_automotive_toolbox__2.4.1::xdctools__3.50.03.33::msp430ware__3.80.05.04::tm4c__2.1.4.178::sitara__1.02.00.00::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::tirtos_tivac__2.16.00.08::tirtos_simplelink__2.13.01.09::sysbios__6.50.01.12::com.ti.SIMPLELINK_SDK_NFC_PLUGIN__2.20.00.08::com.ti.AWS_MSP432E4__2.00.00.09",
+    "packageOrder": 23,
+    "offline": "true"
+  },
+  {
+    "downloadLink": "api/bundle?vid=com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38&download=true&analyticsDevice=undefined&analyticsDevtool=undefined&analyticsPath=Software%2FSimpleLink%20CC13x0%20SDK%2FExamples%2FDevelopment%20Tools%2FCC1310%20LaunchPad%2FTI-RTOS%20Kernel%20(SYS_BIOS)%2Fmemory%2FTI-RTOS%2FGCC%20Compiler%2Fmemory",
+    "makeofflineLink": "api/bundles?vids=com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38",
+    "removeofflineLink": "api/resources?id=ut-_6i16FYg6YY&path=Software/SimpleLink CC13x0 SDK/Examples/Development Tools/CC1310 LaunchPad/TI-RTOS Kernel (SYS_BIOS)/memory/TI-RTOS/GCC Compiler/memory&removeoffline=true",
+    "kernel": [
+      "tirtos"
+    ],
+    "name": "README.html",
+    "resourceType": "file",
+    "coreTypes": [
+      "Cortex M.CC1310F128"
+    ],
+    "devtools": [
+      "CC1310 LaunchPad"
+    ],
+    "advanced": {
+      "overrideProjectSpecDeviceId": true
+    },
+    "compiler": [
+      "gcc"
+    ],
+    "_id": "ut-_6i16FYg6YY",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "dependencies": [],
+    "devtools_category": [
+      "CC1310 LaunchPad"
+    ],
+    "link": "api/linkTo/ut-_6i16FYg6YY?analyticsDevice=undefined&analyticsDevtool=undefined&analyticsPath=Software%2FSimpleLink%20CC13x0%20SDK%2FExamples%2FDevelopment%20Tools%2FCC1310%20LaunchPad%2FTI-RTOS%20Kernel%20(SYS_BIOS)%2Fmemory%2FTI-RTOS%2FGCC%20Compiler%2Fmemory&extname=.html",
+    "package": "SimpleLink CC13x0 SDK",
+    "packageId": "com.ti.SIMPLELINK_CC13X0_SDK",
+    "packageVersion": "2.20.00.38",
+    "packageUId": "com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38",
+    "packagePath": "simplelink_cc13x0_sdk_2_20_00_38",
+    "allowPartialDownload": false,
+    "license": "simplelink_cc13x0_sdk_2_20_00_38/license_simplelink_cc13x0_sdk_2_20_00_38.txt",
+    "linkType": "local",
+    "implictDependencyFile": "simplelink_cc13x0_sdk_2_20_00_38/.metadata/.tirex/.dependencies/spec_146.dependency.tirex.json",
+    "parentID": "ut-cfVxEft1OA4",
+    "isIncludedFile": true,
+    "type": "resource",
+    "text": "README.html",
+    "url": "/api/resources?path=Software/SimpleLink%20CC13x0%20SDK/Examples/Development%20Tools/CC1310%20LaunchPad/TI-RTOS%20Kernel%20(SYS_BIOS)/memory/TI-RTOS/GCC%20Compiler/memory&package=com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38::com.ti.SIMPLELINK_CC13X2_SDK__2.20.00.71::com.ti.SIMPLELINK_MSP432_SDK__2.30.00.14::com.ti.SIMPLELINK_MSP432E4_SDK__2.30.00.14::com.ti.SIMPLELINK_CC26X2_SDK__2.20.00.36::com.ti.SIMPLELINK_CC2640R2_SDK__2.20.00.49::com.ti.SIMPLELINK_CC32XX_SDK__2.30.00.05::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.50.00.62::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.40.00.42::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.60.00.07::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::com.ti.SIMPLELINK_SDK_TI_15_4_STACK_PLUGIN__2.20.00.05::com.ti.SIMPLELINK_ZIGBEE_SDK_PLUGIN__2.20.00.06::energia.core__18.0.0::energia.tool.arm-none-eabi-gcc__6.3.1-20170620::energia.tool.ino2cpp__1.0.3::energia.boards.cc13xx__5.20.0::energia.boards.cc3220emt__5.6.2::energia.boards.msp432r__5.6.3::com.ti.WATSON_MSP432E4__1.00.01.01::com.ti.WATSON_CC32XX__1.00.01.01::com.ti.SAIL__1.20.00.02::com.ti.AZURE_CC32XX__2.00.00.07::com.ti.AZURE_MSP432E4__2.00.00.07::com.ti.AWS_CC32XX__2.00.00.09::c2000ware_software_package__1.00.05.00::digital_power_c2000ware_sdk_software_package__1.01.00.00::powerSUITE_software_package__2.02.00.00::com.ti.mmwave_industrial_toolbox__2.5.2::com.ti.mmwave_automotive_toolbox__2.4.1::xdctools__3.50.03.33::msp430ware__3.80.05.04::tm4c__2.1.4.178::sitara__1.02.00.00::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::tirtos_tivac__2.16.00.08::tirtos_simplelink__2.13.01.09::sysbios__6.50.01.12::com.ti.SIMPLELINK_SDK_NFC_PLUGIN__2.20.00.08::com.ti.AWS_MSP432E4__2.00.00.09",
+    "packageOrder": 23,
+    "offline": "true"
+  },
+  {
+    "downloadLink": "api/bundle?vid=com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38&download=true&analyticsDevice=undefined&analyticsDevtool=undefined&analyticsPath=Software%2FSimpleLink%20CC13x0%20SDK%2FExamples%2FDevelopment%20Tools%2FCC1310%20LaunchPad%2FTI-RTOS%20Kernel%20(SYS_BIOS)%2Fmemory%2FTI-RTOS%2FGCC%20Compiler%2Fmemory",
+    "makeofflineLink": "api/bundles?vids=com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38",
+    "removeofflineLink": "api/resources?id=ut-S8tDpWz69R8&path=Software/SimpleLink CC13x0 SDK/Examples/Development Tools/CC1310 LaunchPad/TI-RTOS Kernel (SYS_BIOS)/memory/TI-RTOS/GCC Compiler/memory&removeoffline=true",
+    "kernel": [
+      "tirtos"
+    ],
+    "name": "README.md",
+    "resourceType": "file",
+    "coreTypes": [
+      "Cortex M.CC1310F128"
+    ],
+    "devtools": [
+      "CC1310 LaunchPad"
+    ],
+    "advanced": {
+      "overrideProjectSpecDeviceId": true
+    },
+    "compiler": [
+      "gcc"
+    ],
+    "_id": "ut-S8tDpWz69R8",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "dependencies": [],
+    "devtools_category": [
+      "CC1310 LaunchPad"
+    ],
+    "link": "api/linkTo/ut-S8tDpWz69R8?analyticsDevice=undefined&analyticsDevtool=undefined&analyticsPath=Software%2FSimpleLink%20CC13x0%20SDK%2FExamples%2FDevelopment%20Tools%2FCC1310%20LaunchPad%2FTI-RTOS%20Kernel%20(SYS_BIOS)%2Fmemory%2FTI-RTOS%2FGCC%20Compiler%2Fmemory&extname=.md",
+    "package": "SimpleLink CC13x0 SDK",
+    "packageId": "com.ti.SIMPLELINK_CC13X0_SDK",
+    "packageVersion": "2.20.00.38",
+    "packageUId": "com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38",
+    "packagePath": "simplelink_cc13x0_sdk_2_20_00_38",
+    "allowPartialDownload": false,
+    "license": "simplelink_cc13x0_sdk_2_20_00_38/license_simplelink_cc13x0_sdk_2_20_00_38.txt",
+    "linkType": "local",
+    "implictDependencyFile": "simplelink_cc13x0_sdk_2_20_00_38/.metadata/.tirex/.dependencies/spec_146.dependency.tirex.json",
+    "parentID": "ut-cfVxEft1OA4",
+    "isIncludedFile": true,
+    "type": "resource",
+    "text": "README.md",
+    "url": "/api/resources?path=Software/SimpleLink%20CC13x0%20SDK/Examples/Development%20Tools/CC1310%20LaunchPad/TI-RTOS%20Kernel%20(SYS_BIOS)/memory/TI-RTOS/GCC%20Compiler/memory&package=com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38::com.ti.SIMPLELINK_CC13X2_SDK__2.20.00.71::com.ti.SIMPLELINK_MSP432_SDK__2.30.00.14::com.ti.SIMPLELINK_MSP432E4_SDK__2.30.00.14::com.ti.SIMPLELINK_CC26X2_SDK__2.20.00.36::com.ti.SIMPLELINK_CC2640R2_SDK__2.20.00.49::com.ti.SIMPLELINK_CC32XX_SDK__2.30.00.05::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.50.00.62::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.40.00.42::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.60.00.07::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::com.ti.SIMPLELINK_SDK_TI_15_4_STACK_PLUGIN__2.20.00.05::com.ti.SIMPLELINK_ZIGBEE_SDK_PLUGIN__2.20.00.06::energia.core__18.0.0::energia.tool.arm-none-eabi-gcc__6.3.1-20170620::energia.tool.ino2cpp__1.0.3::energia.boards.cc13xx__5.20.0::energia.boards.cc3220emt__5.6.2::energia.boards.msp432r__5.6.3::com.ti.WATSON_MSP432E4__1.00.01.01::com.ti.WATSON_CC32XX__1.00.01.01::com.ti.SAIL__1.20.00.02::com.ti.AZURE_CC32XX__2.00.00.07::com.ti.AZURE_MSP432E4__2.00.00.07::com.ti.AWS_CC32XX__2.00.00.09::c2000ware_software_package__1.00.05.00::digital_power_c2000ware_sdk_software_package__1.01.00.00::powerSUITE_software_package__2.02.00.00::com.ti.mmwave_industrial_toolbox__2.5.2::com.ti.mmwave_automotive_toolbox__2.4.1::xdctools__3.50.03.33::msp430ware__3.80.05.04::tm4c__2.1.4.178::sitara__1.02.00.00::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::tirtos_tivac__2.16.00.08::tirtos_simplelink__2.13.01.09::sysbios__6.50.01.12::com.ti.SIMPLELINK_SDK_NFC_PLUGIN__2.20.00.08::com.ti.AWS_MSP432E4__2.00.00.09",
+    "packageOrder": 23,
+    "offline": "true"
+  },
+  {
+    "downloadLink": "api/bundle?vid=com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38&download=true&analyticsDevice=undefined&analyticsDevtool=undefined&analyticsPath=Software%2FSimpleLink%20CC13x0%20SDK%2FExamples%2FDevelopment%20Tools%2FCC1310%20LaunchPad%2FTI-RTOS%20Kernel%20(SYS_BIOS)%2Fmemory%2FTI-RTOS%2FGCC%20Compiler%2Fmemory",
+    "makeofflineLink": "api/bundles?vids=com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38",
+    "removeofflineLink": "api/resources?id=ut-225Vtx8ub9M&path=Software/SimpleLink CC13x0 SDK/Examples/Development Tools/CC1310 LaunchPad/TI-RTOS Kernel (SYS_BIOS)/memory/TI-RTOS/GCC Compiler/memory&removeoffline=true",
+    "kernel": [
+      "tirtos"
+    ],
+    "name": "ccfg.c",
+    "resourceType": "file",
+    "coreTypes": [
+      "Cortex M.CC1310F128"
+    ],
+    "devtools": [
+      "CC1310 LaunchPad"
+    ],
+    "advanced": {
+      "overrideProjectSpecDeviceId": true
+    },
+    "compiler": [
+      "gcc"
+    ],
+    "_id": "ut-225Vtx8ub9M",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "dependencies": [],
+    "devtools_category": [
+      "CC1310 LaunchPad"
+    ],
+    "link": "api/linkTo/ut-225Vtx8ub9M?analyticsDevice=undefined&analyticsDevtool=undefined&analyticsPath=Software%2FSimpleLink%20CC13x0%20SDK%2FExamples%2FDevelopment%20Tools%2FCC1310%20LaunchPad%2FTI-RTOS%20Kernel%20(SYS_BIOS)%2Fmemory%2FTI-RTOS%2FGCC%20Compiler%2Fmemory&extname=.c",
+    "package": "SimpleLink CC13x0 SDK",
+    "packageId": "com.ti.SIMPLELINK_CC13X0_SDK",
+    "packageVersion": "2.20.00.38",
+    "packageUId": "com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38",
+    "packagePath": "simplelink_cc13x0_sdk_2_20_00_38",
+    "allowPartialDownload": false,
+    "license": "simplelink_cc13x0_sdk_2_20_00_38/license_simplelink_cc13x0_sdk_2_20_00_38.txt",
+    "linkType": "local",
+    "implictDependencyFile": "simplelink_cc13x0_sdk_2_20_00_38/.metadata/.tirex/.dependencies/spec_146.dependency.tirex.json",
+    "parentID": "ut-cfVxEft1OA4",
+    "isIncludedFile": true,
+    "type": "resource",
+    "text": "ccfg.c",
+    "url": "/api/resources?path=Software/SimpleLink%20CC13x0%20SDK/Examples/Development%20Tools/CC1310%20LaunchPad/TI-RTOS%20Kernel%20(SYS_BIOS)/memory/TI-RTOS/GCC%20Compiler/memory&package=com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38::com.ti.SIMPLELINK_CC13X2_SDK__2.20.00.71::com.ti.SIMPLELINK_MSP432_SDK__2.30.00.14::com.ti.SIMPLELINK_MSP432E4_SDK__2.30.00.14::com.ti.SIMPLELINK_CC26X2_SDK__2.20.00.36::com.ti.SIMPLELINK_CC2640R2_SDK__2.20.00.49::com.ti.SIMPLELINK_CC32XX_SDK__2.30.00.05::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.50.00.62::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.40.00.42::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.60.00.07::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::com.ti.SIMPLELINK_SDK_TI_15_4_STACK_PLUGIN__2.20.00.05::com.ti.SIMPLELINK_ZIGBEE_SDK_PLUGIN__2.20.00.06::energia.core__18.0.0::energia.tool.arm-none-eabi-gcc__6.3.1-20170620::energia.tool.ino2cpp__1.0.3::energia.boards.cc13xx__5.20.0::energia.boards.cc3220emt__5.6.2::energia.boards.msp432r__5.6.3::com.ti.WATSON_MSP432E4__1.00.01.01::com.ti.WATSON_CC32XX__1.00.01.01::com.ti.SAIL__1.20.00.02::com.ti.AZURE_CC32XX__2.00.00.07::com.ti.AZURE_MSP432E4__2.00.00.07::com.ti.AWS_CC32XX__2.00.00.09::c2000ware_software_package__1.00.05.00::digital_power_c2000ware_sdk_software_package__1.01.00.00::powerSUITE_software_package__2.02.00.00::com.ti.mmwave_industrial_toolbox__2.5.2::com.ti.mmwave_automotive_toolbox__2.4.1::xdctools__3.50.03.33::msp430ware__3.80.05.04::tm4c__2.1.4.178::sitara__1.02.00.00::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::tirtos_tivac__2.16.00.08::tirtos_simplelink__2.13.01.09::sysbios__6.50.01.12::com.ti.SIMPLELINK_SDK_NFC_PLUGIN__2.20.00.08::com.ti.AWS_MSP432E4__2.00.00.09",
+    "packageOrder": 23,
+    "offline": "true"
+  },
+  {
+    "downloadLink": "api/bundle?vid=com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38&download=true&analyticsDevice=undefined&analyticsDevtool=undefined&analyticsPath=Software%2FSimpleLink%20CC13x0%20SDK%2FExamples%2FDevelopment%20Tools%2FCC1310%20LaunchPad%2FTI-RTOS%20Kernel%20(SYS_BIOS)%2Fmemory%2FTI-RTOS%2FGCC%20Compiler%2Fmemory",
+    "makeofflineLink": "api/bundles?vids=com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38",
+    "removeofflineLink": "api/resources?id=ut-8l2WiBaAg1U&path=Software/SimpleLink CC13x0 SDK/Examples/Development Tools/CC1310 LaunchPad/TI-RTOS Kernel (SYS_BIOS)/memory/TI-RTOS/GCC Compiler/memory&removeoffline=true",
+    "kernel": [
+      "tirtos"
+    ],
+    "name": "makefile.defs",
+    "resourceType": "file",
+    "coreTypes": [
+      "Cortex M.CC1310F128"
+    ],
+    "devtools": [
+      "CC1310 LaunchPad"
+    ],
+    "advanced": {
+      "overrideProjectSpecDeviceId": true
+    },
+    "compiler": [
+      "gcc"
+    ],
+    "_id": "ut-8l2WiBaAg1U",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "dependencies": [],
+    "devtools_category": [
+      "CC1310 LaunchPad"
+    ],
+    "link": "api/linkTo/ut-8l2WiBaAg1U?analyticsDevice=undefined&analyticsDevtool=undefined&analyticsPath=Software%2FSimpleLink%20CC13x0%20SDK%2FExamples%2FDevelopment%20Tools%2FCC1310%20LaunchPad%2FTI-RTOS%20Kernel%20(SYS_BIOS)%2Fmemory%2FTI-RTOS%2FGCC%20Compiler%2Fmemory&extname=.defs",
+    "package": "SimpleLink CC13x0 SDK",
+    "packageId": "com.ti.SIMPLELINK_CC13X0_SDK",
+    "packageVersion": "2.20.00.38",
+    "packageUId": "com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38",
+    "packagePath": "simplelink_cc13x0_sdk_2_20_00_38",
+    "allowPartialDownload": false,
+    "license": "simplelink_cc13x0_sdk_2_20_00_38/license_simplelink_cc13x0_sdk_2_20_00_38.txt",
+    "linkType": "local",
+    "implictDependencyFile": "simplelink_cc13x0_sdk_2_20_00_38/.metadata/.tirex/.dependencies/spec_146.dependency.tirex.json",
+    "parentID": "ut-cfVxEft1OA4",
+    "isIncludedFile": true,
+    "type": "resource",
+    "text": "makefile.defs",
+    "url": "/api/resources?path=Software/SimpleLink%20CC13x0%20SDK/Examples/Development%20Tools/CC1310%20LaunchPad/TI-RTOS%20Kernel%20(SYS_BIOS)/memory/TI-RTOS/GCC%20Compiler/memory&package=com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38::com.ti.SIMPLELINK_CC13X2_SDK__2.20.00.71::com.ti.SIMPLELINK_MSP432_SDK__2.30.00.14::com.ti.SIMPLELINK_MSP432E4_SDK__2.30.00.14::com.ti.SIMPLELINK_CC26X2_SDK__2.20.00.36::com.ti.SIMPLELINK_CC2640R2_SDK__2.20.00.49::com.ti.SIMPLELINK_CC32XX_SDK__2.30.00.05::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.50.00.62::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.40.00.42::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.60.00.07::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::com.ti.SIMPLELINK_SDK_TI_15_4_STACK_PLUGIN__2.20.00.05::com.ti.SIMPLELINK_ZIGBEE_SDK_PLUGIN__2.20.00.06::energia.core__18.0.0::energia.tool.arm-none-eabi-gcc__6.3.1-20170620::energia.tool.ino2cpp__1.0.3::energia.boards.cc13xx__5.20.0::energia.boards.cc3220emt__5.6.2::energia.boards.msp432r__5.6.3::com.ti.WATSON_MSP432E4__1.00.01.01::com.ti.WATSON_CC32XX__1.00.01.01::com.ti.SAIL__1.20.00.02::com.ti.AZURE_CC32XX__2.00.00.07::com.ti.AZURE_MSP432E4__2.00.00.07::com.ti.AWS_CC32XX__2.00.00.09::c2000ware_software_package__1.00.05.00::digital_power_c2000ware_sdk_software_package__1.01.00.00::powerSUITE_software_package__2.02.00.00::com.ti.mmwave_industrial_toolbox__2.5.2::com.ti.mmwave_automotive_toolbox__2.4.1::xdctools__3.50.03.33::msp430ware__3.80.05.04::tm4c__2.1.4.178::sitara__1.02.00.00::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::tirtos_tivac__2.16.00.08::tirtos_simplelink__2.13.01.09::sysbios__6.50.01.12::com.ti.SIMPLELINK_SDK_NFC_PLUGIN__2.20.00.08::com.ti.AWS_MSP432E4__2.00.00.09",
+    "packageOrder": 23,
+    "offline": "true"
+  },
+  {
+    "downloadLink": "api/bundle?vid=com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38&download=true&analyticsDevice=undefined&analyticsDevtool=undefined&analyticsPath=Software%2FSimpleLink%20CC13x0%20SDK%2FExamples%2FDevelopment%20Tools%2FCC1310%20LaunchPad%2FTI-RTOS%20Kernel%20(SYS_BIOS)%2Fmemory%2FTI-RTOS%2FGCC%20Compiler%2Fmemory",
+    "makeofflineLink": "api/bundles?vids=com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38",
+    "removeofflineLink": "api/resources?id=ut-EeTuu1ErbSo&path=Software/SimpleLink CC13x0 SDK/Examples/Development Tools/CC1310 LaunchPad/TI-RTOS Kernel (SYS_BIOS)/memory/TI-RTOS/GCC Compiler/memory&removeoffline=true",
+    "kernel": [
+      "tirtos"
+    ],
+    "name": "memory.c",
+    "resourceType": "file",
+    "coreTypes": [
+      "Cortex M.CC1310F128"
+    ],
+    "devtools": [
+      "CC1310 LaunchPad"
+    ],
+    "advanced": {
+      "overrideProjectSpecDeviceId": true
+    },
+    "compiler": [
+      "gcc"
+    ],
+    "_id": "ut-EeTuu1ErbSo",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "dependencies": [],
+    "devtools_category": [
+      "CC1310 LaunchPad"
+    ],
+    "link": "api/linkTo/ut-EeTuu1ErbSo?analyticsDevice=undefined&analyticsDevtool=undefined&analyticsPath=Software%2FSimpleLink%20CC13x0%20SDK%2FExamples%2FDevelopment%20Tools%2FCC1310%20LaunchPad%2FTI-RTOS%20Kernel%20(SYS_BIOS)%2Fmemory%2FTI-RTOS%2FGCC%20Compiler%2Fmemory&extname=.c",
+    "package": "SimpleLink CC13x0 SDK",
+    "packageId": "com.ti.SIMPLELINK_CC13X0_SDK",
+    "packageVersion": "2.20.00.38",
+    "packageUId": "com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38",
+    "packagePath": "simplelink_cc13x0_sdk_2_20_00_38",
+    "allowPartialDownload": false,
+    "license": "simplelink_cc13x0_sdk_2_20_00_38/license_simplelink_cc13x0_sdk_2_20_00_38.txt",
+    "linkType": "local",
+    "implictDependencyFile": "simplelink_cc13x0_sdk_2_20_00_38/.metadata/.tirex/.dependencies/spec_146.dependency.tirex.json",
+    "parentID": "ut-cfVxEft1OA4",
+    "isIncludedFile": true,
+    "type": "resource",
+    "text": "memory.c",
+    "url": "/api/resources?path=Software/SimpleLink%20CC13x0%20SDK/Examples/Development%20Tools/CC1310%20LaunchPad/TI-RTOS%20Kernel%20(SYS_BIOS)/memory/TI-RTOS/GCC%20Compiler/memory&package=com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38::com.ti.SIMPLELINK_CC13X2_SDK__2.20.00.71::com.ti.SIMPLELINK_MSP432_SDK__2.30.00.14::com.ti.SIMPLELINK_MSP432E4_SDK__2.30.00.14::com.ti.SIMPLELINK_CC26X2_SDK__2.20.00.36::com.ti.SIMPLELINK_CC2640R2_SDK__2.20.00.49::com.ti.SIMPLELINK_CC32XX_SDK__2.30.00.05::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.50.00.62::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.40.00.42::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.60.00.07::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::com.ti.SIMPLELINK_SDK_TI_15_4_STACK_PLUGIN__2.20.00.05::com.ti.SIMPLELINK_ZIGBEE_SDK_PLUGIN__2.20.00.06::energia.core__18.0.0::energia.tool.arm-none-eabi-gcc__6.3.1-20170620::energia.tool.ino2cpp__1.0.3::energia.boards.cc13xx__5.20.0::energia.boards.cc3220emt__5.6.2::energia.boards.msp432r__5.6.3::com.ti.WATSON_MSP432E4__1.00.01.01::com.ti.WATSON_CC32XX__1.00.01.01::com.ti.SAIL__1.20.00.02::com.ti.AZURE_CC32XX__2.00.00.07::com.ti.AZURE_MSP432E4__2.00.00.07::com.ti.AWS_CC32XX__2.00.00.09::c2000ware_software_package__1.00.05.00::digital_power_c2000ware_sdk_software_package__1.01.00.00::powerSUITE_software_package__2.02.00.00::com.ti.mmwave_industrial_toolbox__2.5.2::com.ti.mmwave_automotive_toolbox__2.4.1::xdctools__3.50.03.33::msp430ware__3.80.05.04::tm4c__2.1.4.178::sitara__1.02.00.00::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::tirtos_tivac__2.16.00.08::tirtos_simplelink__2.13.01.09::sysbios__6.50.01.12::com.ti.SIMPLELINK_SDK_NFC_PLUGIN__2.20.00.08::com.ti.AWS_MSP432E4__2.00.00.09",
+    "packageOrder": 23,
+    "offline": "true"
+  },
+  {
+    "downloadLink": "api/bundle?vid=com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38&download=true&analyticsDevice=undefined&analyticsDevtool=undefined&analyticsPath=Software%2FSimpleLink%20CC13x0%20SDK%2FExamples%2FDevelopment%20Tools%2FCC1310%20LaunchPad%2FTI-RTOS%20Kernel%20(SYS_BIOS)%2Fmemory%2FTI-RTOS%2FGCC%20Compiler%2Fmemory",
+    "makeofflineLink": "api/bundles?vids=com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38",
+    "removeofflineLink": "api/resources?id=ut-j8zqsqL8czo&path=Software/SimpleLink CC13x0 SDK/Examples/Development Tools/CC1310 LaunchPad/TI-RTOS Kernel (SYS_BIOS)/memory/TI-RTOS/GCC Compiler/memory&removeoffline=true",
+    "kernel": [
+      "tirtos"
+    ],
+    "name": "memory.cfg",
+    "resourceType": "file",
+    "coreTypes": [
+      "Cortex M.CC1310F128"
+    ],
+    "devtools": [
+      "CC1310 LaunchPad"
+    ],
+    "advanced": {
+      "overrideProjectSpecDeviceId": true
+    },
+    "compiler": [
+      "gcc"
+    ],
+    "_id": "ut-j8zqsqL8czo",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "dependencies": [],
+    "devtools_category": [
+      "CC1310 LaunchPad"
+    ],
+    "link": "api/linkTo/ut-j8zqsqL8czo?analyticsDevice=undefined&analyticsDevtool=undefined&analyticsPath=Software%2FSimpleLink%20CC13x0%20SDK%2FExamples%2FDevelopment%20Tools%2FCC1310%20LaunchPad%2FTI-RTOS%20Kernel%20(SYS_BIOS)%2Fmemory%2FTI-RTOS%2FGCC%20Compiler%2Fmemory&extname=.cfg",
+    "package": "SimpleLink CC13x0 SDK",
+    "packageId": "com.ti.SIMPLELINK_CC13X0_SDK",
+    "packageVersion": "2.20.00.38",
+    "packageUId": "com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38",
+    "packagePath": "simplelink_cc13x0_sdk_2_20_00_38",
+    "allowPartialDownload": false,
+    "license": "simplelink_cc13x0_sdk_2_20_00_38/license_simplelink_cc13x0_sdk_2_20_00_38.txt",
+    "linkType": "local",
+    "implictDependencyFile": "simplelink_cc13x0_sdk_2_20_00_38/.metadata/.tirex/.dependencies/spec_146.dependency.tirex.json",
+    "parentID": "ut-cfVxEft1OA4",
+    "isIncludedFile": true,
+    "type": "resource",
+    "text": "memory.cfg",
+    "url": "/api/resources?path=Software/SimpleLink%20CC13x0%20SDK/Examples/Development%20Tools/CC1310%20LaunchPad/TI-RTOS%20Kernel%20(SYS_BIOS)/memory/TI-RTOS/GCC%20Compiler/memory&package=com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38::com.ti.SIMPLELINK_CC13X2_SDK__2.20.00.71::com.ti.SIMPLELINK_MSP432_SDK__2.30.00.14::com.ti.SIMPLELINK_MSP432E4_SDK__2.30.00.14::com.ti.SIMPLELINK_CC26X2_SDK__2.20.00.36::com.ti.SIMPLELINK_CC2640R2_SDK__2.20.00.49::com.ti.SIMPLELINK_CC32XX_SDK__2.30.00.05::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.50.00.62::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.40.00.42::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.60.00.07::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::com.ti.SIMPLELINK_SDK_TI_15_4_STACK_PLUGIN__2.20.00.05::com.ti.SIMPLELINK_ZIGBEE_SDK_PLUGIN__2.20.00.06::energia.core__18.0.0::energia.tool.arm-none-eabi-gcc__6.3.1-20170620::energia.tool.ino2cpp__1.0.3::energia.boards.cc13xx__5.20.0::energia.boards.cc3220emt__5.6.2::energia.boards.msp432r__5.6.3::com.ti.WATSON_MSP432E4__1.00.01.01::com.ti.WATSON_CC32XX__1.00.01.01::com.ti.SAIL__1.20.00.02::com.ti.AZURE_CC32XX__2.00.00.07::com.ti.AZURE_MSP432E4__2.00.00.07::com.ti.AWS_CC32XX__2.00.00.09::c2000ware_software_package__1.00.05.00::digital_power_c2000ware_sdk_software_package__1.01.00.00::powerSUITE_software_package__2.02.00.00::com.ti.mmwave_industrial_toolbox__2.5.2::com.ti.mmwave_automotive_toolbox__2.4.1::xdctools__3.50.03.33::msp430ware__3.80.05.04::tm4c__2.1.4.178::sitara__1.02.00.00::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::tirtos_tivac__2.16.00.08::tirtos_simplelink__2.13.01.09::sysbios__6.50.01.12::com.ti.SIMPLELINK_SDK_NFC_PLUGIN__2.20.00.08::com.ti.AWS_MSP432E4__2.00.00.09",
+    "packageOrder": 23,
+    "offline": "true"
+  },
+  {
+    "downloadLink": "api/bundle?vid=com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38&download=true&analyticsDevice=undefined&analyticsDevtool=undefined&analyticsPath=Software%2FSimpleLink%20CC13x0%20SDK%2FExamples%2FDevelopment%20Tools%2FCC1310%20LaunchPad%2FTI-RTOS%20Kernel%20(SYS_BIOS)%2Fmemory%2FTI-RTOS%2FGCC%20Compiler%2Fmemory",
+    "makeofflineLink": "api/bundles?vids=com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38",
+    "removeofflineLink": "api/resources?id=ut-jqRkNFJb6kQ&path=Software/SimpleLink CC13x0 SDK/Examples/Development Tools/CC1310 LaunchPad/TI-RTOS Kernel (SYS_BIOS)/memory/TI-RTOS/GCC Compiler/memory&removeoffline=true",
+    "kernel": [
+      "tirtos"
+    ],
+    "name": "overview.rov.json",
+    "resourceType": "file",
+    "coreTypes": [
+      "Cortex M.CC1310F128"
+    ],
+    "devtools": [
+      "CC1310 LaunchPad"
+    ],
+    "advanced": {
+      "overrideProjectSpecDeviceId": true
+    },
+    "compiler": [
+      "gcc"
+    ],
+    "_id": "ut-jqRkNFJb6kQ",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "dependencies": [],
+    "devtools_category": [
+      "CC1310 LaunchPad"
+    ],
+    "link": "api/linkTo/ut-jqRkNFJb6kQ?analyticsDevice=undefined&analyticsDevtool=undefined&analyticsPath=Software%2FSimpleLink%20CC13x0%20SDK%2FExamples%2FDevelopment%20Tools%2FCC1310%20LaunchPad%2FTI-RTOS%20Kernel%20(SYS_BIOS)%2Fmemory%2FTI-RTOS%2FGCC%20Compiler%2Fmemory&extname=.json",
+    "package": "SimpleLink CC13x0 SDK",
+    "packageId": "com.ti.SIMPLELINK_CC13X0_SDK",
+    "packageVersion": "2.20.00.38",
+    "packageUId": "com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38",
+    "packagePath": "simplelink_cc13x0_sdk_2_20_00_38",
+    "allowPartialDownload": false,
+    "license": "simplelink_cc13x0_sdk_2_20_00_38/license_simplelink_cc13x0_sdk_2_20_00_38.txt",
+    "linkType": "local",
+    "implictDependencyFile": "simplelink_cc13x0_sdk_2_20_00_38/.metadata/.tirex/.dependencies/spec_146.dependency.tirex.json",
+    "parentID": "ut-cfVxEft1OA4",
+    "isIncludedFile": true,
+    "type": "resource",
+    "text": "overview.rov.json",
+    "url": "/api/resources?path=Software/SimpleLink%20CC13x0%20SDK/Examples/Development%20Tools/CC1310%20LaunchPad/TI-RTOS%20Kernel%20(SYS_BIOS)/memory/TI-RTOS/GCC%20Compiler/memory&package=com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38::com.ti.SIMPLELINK_CC13X2_SDK__2.20.00.71::com.ti.SIMPLELINK_MSP432_SDK__2.30.00.14::com.ti.SIMPLELINK_MSP432E4_SDK__2.30.00.14::com.ti.SIMPLELINK_CC26X2_SDK__2.20.00.36::com.ti.SIMPLELINK_CC2640R2_SDK__2.20.00.49::com.ti.SIMPLELINK_CC32XX_SDK__2.30.00.05::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.50.00.62::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.40.00.42::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.60.00.07::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::com.ti.SIMPLELINK_SDK_TI_15_4_STACK_PLUGIN__2.20.00.05::com.ti.SIMPLELINK_ZIGBEE_SDK_PLUGIN__2.20.00.06::energia.core__18.0.0::energia.tool.arm-none-eabi-gcc__6.3.1-20170620::energia.tool.ino2cpp__1.0.3::energia.boards.cc13xx__5.20.0::energia.boards.cc3220emt__5.6.2::energia.boards.msp432r__5.6.3::com.ti.WATSON_MSP432E4__1.00.01.01::com.ti.WATSON_CC32XX__1.00.01.01::com.ti.SAIL__1.20.00.02::com.ti.AZURE_CC32XX__2.00.00.07::com.ti.AZURE_MSP432E4__2.00.00.07::com.ti.AWS_CC32XX__2.00.00.09::c2000ware_software_package__1.00.05.00::digital_power_c2000ware_sdk_software_package__1.01.00.00::powerSUITE_software_package__2.02.00.00::com.ti.mmwave_industrial_toolbox__2.5.2::com.ti.mmwave_automotive_toolbox__2.4.1::xdctools__3.50.03.33::msp430ware__3.80.05.04::tm4c__2.1.4.178::sitara__1.02.00.00::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::tirtos_tivac__2.16.00.08::tirtos_simplelink__2.13.01.09::sysbios__6.50.01.12::com.ti.SIMPLELINK_SDK_NFC_PLUGIN__2.20.00.08::com.ti.AWS_MSP432E4__2.00.00.09",
+    "packageOrder": 23,
+    "offline": "true"
+  },
+  {
+    "downloadLink": "api/bundle?vid=com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38&download=true&analyticsDevice=undefined&analyticsDevtool=undefined&analyticsPath=Software%2FSimpleLink%20CC13x0%20SDK%2FExamples%2FDevelopment%20Tools%2FCC1310%20LaunchPad%2FTI-RTOS%20Kernel%20(SYS_BIOS)%2Fmemory%2FTI-RTOS%2FGCC%20Compiler%2Fmemory",
+    "makeofflineLink": "api/bundles?vids=com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38",
+    "removeofflineLink": "api/resources?id=ut-41VkfhVI3ew&path=Software/SimpleLink CC13x0 SDK/Examples/Development Tools/CC1310 LaunchPad/TI-RTOS Kernel (SYS_BIOS)/memory/TI-RTOS/GCC Compiler/memory&removeoffline=true",
+    "kernel": [
+      "tirtos"
+    ],
+    "name": "Board.html",
+    "resourceType": "file",
+    "coreTypes": [
+      "Cortex M.CC1310F128"
+    ],
+    "devtools": [
+      "CC1310 LaunchPad"
+    ],
+    "advanced": {
+      "overrideProjectSpecDeviceId": true
+    },
+    "compiler": [
+      "gcc"
+    ],
+    "_id": "ut-41VkfhVI3ew",
+    "version": "UNVERSIONED",
+    "semver": "0.0.0",
+    "dependencies": [],
+    "devtools_category": [
+      "CC1310 LaunchPad"
+    ],
+    "link": "api/linkTo/ut-41VkfhVI3ew?analyticsDevice=undefined&analyticsDevtool=undefined&analyticsPath=Software%2FSimpleLink%20CC13x0%20SDK%2FExamples%2FDevelopment%20Tools%2FCC1310%20LaunchPad%2FTI-RTOS%20Kernel%20(SYS_BIOS)%2Fmemory%2FTI-RTOS%2FGCC%20Compiler%2Fmemory&extname=.html",
+    "package": "SimpleLink CC13x0 SDK",
+    "packageId": "com.ti.SIMPLELINK_CC13X0_SDK",
+    "packageVersion": "2.20.00.38",
+    "packageUId": "com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38",
+    "packagePath": "simplelink_cc13x0_sdk_2_20_00_38",
+    "allowPartialDownload": false,
+    "license": "simplelink_cc13x0_sdk_2_20_00_38/license_simplelink_cc13x0_sdk_2_20_00_38.txt",
+    "linkType": "local",
+    "implictDependencyFile": "simplelink_cc13x0_sdk_2_20_00_38/.metadata/.tirex/.dependencies/spec_146.dependency.tirex.json",
+    "parentID": "ut-cfVxEft1OA4",
+    "isIncludedFile": true,
+    "type": "resource",
+    "text": "Board.html",
+    "url": "/api/resources?path=Software/SimpleLink%20CC13x0%20SDK/Examples/Development%20Tools/CC1310%20LaunchPad/TI-RTOS%20Kernel%20(SYS_BIOS)/memory/TI-RTOS/GCC%20Compiler/memory&package=com.ti.SIMPLELINK_CC13X0_SDK__2.20.00.38::com.ti.SIMPLELINK_CC13X2_SDK__2.20.00.71::com.ti.SIMPLELINK_MSP432_SDK__2.30.00.14::com.ti.SIMPLELINK_MSP432E4_SDK__2.30.00.14::com.ti.SIMPLELINK_CC26X2_SDK__2.20.00.36::com.ti.SIMPLELINK_CC2640R2_SDK__2.20.00.49::com.ti.SIMPLELINK_CC32XX_SDK__2.30.00.05::com.ti.SIMPLELINK_CC2640R2_SDK_BLE_EXAMPLE_PACK__1.50.00.62::com.ti.SIMPLELINK_SDK_BLE_PLUGIN__1.40.00.42::com.ti.SIMPLELINK_MSP432_SDK_WIFI_PLUGIN__1.60.00.07::com.ti.SIMPLELINK_SDK_VOICE_DETECTION_PLUGIN__1.50.00.15::com.ti.SIMPLELINK_SDK_TI_15_4_STACK_PLUGIN__2.20.00.05::com.ti.SIMPLELINK_ZIGBEE_SDK_PLUGIN__2.20.00.06::energia.core__18.0.0::energia.tool.arm-none-eabi-gcc__6.3.1-20170620::energia.tool.ino2cpp__1.0.3::energia.boards.cc13xx__5.20.0::energia.boards.cc3220emt__5.6.2::energia.boards.msp432r__5.6.3::com.ti.WATSON_MSP432E4__1.00.01.01::com.ti.WATSON_CC32XX__1.00.01.01::com.ti.SAIL__1.20.00.02::com.ti.AZURE_CC32XX__2.00.00.07::com.ti.AZURE_MSP432E4__2.00.00.07::com.ti.AWS_CC32XX__2.00.00.09::c2000ware_software_package__1.00.05.00::digital_power_c2000ware_sdk_software_package__1.01.00.00::powerSUITE_software_package__2.02.00.00::com.ti.mmwave_industrial_toolbox__2.5.2::com.ti.mmwave_automotive_toolbox__2.4.1::xdctools__3.50.03.33::msp430ware__3.80.05.04::tm4c__2.1.4.178::sitara__1.02.00.00::tirtos_msp43x__2.20.00.06::tirtos_cc13xx_cc26xx__2.21.00.06::tirtos_tivac__2.16.00.08::tirtos_simplelink__2.13.01.09::sysbios__6.50.01.12::com.ti.SIMPLELINK_SDK_NFC_PLUGIN__2.20.00.08::com.ti.AWS_MSP432E4__2.00.00.09",
+    "packageOrder": 23,
+    "offline": "true"
+  }
+]

@@ -2,14 +2,62 @@
 
 uart.obj: ../uart.c
 uart.obj: ../uart.h
+uart.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/knl/Queue.h
+uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/std.h
+uart.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/stdarg.h
+uart.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/sys/_types.h
+uart.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/sys/cdefs.h
+uart.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/machine/_types.h
+uart.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/stddef.h
+uart.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/targets/arm/elf/std.h
+uart.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/targets/arm/elf/M3.h
+uart.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/targets/std.h
 uart.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/stdint.h
 uart.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/sys/stdint.h
-uart.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/sys/cdefs.h
-uart.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/sys/_types.h
-uart.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/machine/_types.h
 uart.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/machine/_stdint.h
 uart.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/sys/_stdint.h
-uart.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/stddef.h
+uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/xdc.h
+uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h
+uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types__prologue.h
+uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/package/package.defs.h
+uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types__epilogue.h
+uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IInstance.h
+uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h
+uart.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/knl/package/package.defs.h
+uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IModule.h
+uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h
+uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h
+uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IHeap.h
+uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h
+uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IInstance.h
+uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IModule.h
+uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Error.h
+uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h
+uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Error__prologue.h
+uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Main.h
+uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h
+uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IModule.h
+uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IGateProvider.h
+uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h
+uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IInstance.h
+uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IModule.h
+uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/package/Main_Module_GateProxy.h
+uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h
+uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IInstance.h
+uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IGateProvider.h
+uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IModule.h
+uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h
+uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Error__epilogue.h
+uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Memory.h
+uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h
+uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IModule.h
+uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IHeap.h
+uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Error.h
+uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/package/Memory_HeapProxy.h
+uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h
+uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IInstance.h
+uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IHeap.h
+uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Error.h
 uart.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/GPIO.h
 uart.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/UART.h
 uart.obj: ../Board.h
@@ -57,53 +105,10 @@ uart.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/../include/sy
 uart.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/sys/_timespec.h
 uart.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs/sched.h
 uart.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/BIOS.h
-uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/std.h
-uart.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/stdarg.h
-uart.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/targets/arm/elf/std.h
-uart.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/targets/arm/elf/M3.h
-uart.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/targets/std.h
-uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/xdc.h
 uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h
-uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types__prologue.h
-uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/package/package.defs.h
-uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types__epilogue.h
 uart.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/BIOS__prologue.h
 uart.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/package/package.defs.h
 uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Error.h
-uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h
-uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Error__prologue.h
-uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Main.h
-uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h
-uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IModule.h
-uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h
-uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h
-uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IHeap.h
-uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h
-uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IInstance.h
-uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h
-uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IModule.h
-uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Error.h
-uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Memory.h
-uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h
-uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IModule.h
-uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IHeap.h
-uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Error.h
-uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/package/Memory_HeapProxy.h
-uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h
-uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IInstance.h
-uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IHeap.h
-uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Error.h
-uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IGateProvider.h
-uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h
-uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IInstance.h
-uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IModule.h
-uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/package/Main_Module_GateProxy.h
-uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h
-uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IInstance.h
-uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IGateProvider.h
-uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IModule.h
-uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h
-uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Error__epilogue.h
 uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h
 uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IModule.h
 uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IGateProvider.h
@@ -117,7 +122,6 @@ uart.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbi
 uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h
 uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IInstance.h
 uart.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/knl/Task__prologue.h
-uart.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/knl/package/package.defs.h
 uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Error.h
 uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Assert.h
 uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h
@@ -152,9 +156,6 @@ uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h
 uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Log__epilogue.h
 uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IHeap.h
 uart.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/knl/Queue.h
-uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h
-uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IInstance.h
-uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IModule.h
 uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IModule.h
 uart.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/interfaces/ITaskSupport.h
 uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h
@@ -236,17 +237,66 @@ uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IInstance.h
 uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IGateProvider.h
 uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/package/System_SupportProxy.h
 uart.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/package/System_Module_GateProxy.h
+uart.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/knl/Queue.h
 
 ../uart.c: 
 ../uart.h: 
+C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/knl/Queue.h: 
+C:/ti/xdctools_3_50_07_20_core/packages/xdc/std.h: 
+C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/stdarg.h: 
+C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/sys/_types.h: 
+C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/sys/cdefs.h: 
+C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/machine/_types.h: 
+C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/stddef.h: 
+C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/targets/arm/elf/std.h: 
+C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/targets/arm/elf/M3.h: 
+C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/targets/std.h: 
 C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/stdint.h: 
 C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/sys/stdint.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/sys/cdefs.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/sys/_types.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/machine/_types.h: 
 C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/machine/_stdint.h: 
 C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/sys/_stdint.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/stddef.h: 
+C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/xdc.h: 
+C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h: 
+C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types__prologue.h: 
+C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/package/package.defs.h: 
+C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types__epilogue.h: 
+C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IInstance.h: 
+C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h: 
+C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/knl/package/package.defs.h: 
+C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IModule.h: 
+C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h: 
+C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h: 
+C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IHeap.h: 
+C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h: 
+C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IInstance.h: 
+C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IModule.h: 
+C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Error.h: 
+C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h: 
+C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Error__prologue.h: 
+C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Main.h: 
+C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h: 
+C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IModule.h: 
+C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IGateProvider.h: 
+C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h: 
+C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IInstance.h: 
+C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IModule.h: 
+C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/package/Main_Module_GateProxy.h: 
+C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h: 
+C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IInstance.h: 
+C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IGateProvider.h: 
+C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IModule.h: 
+C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h: 
+C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Error__epilogue.h: 
+C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Memory.h: 
+C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h: 
+C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IModule.h: 
+C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IHeap.h: 
+C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Error.h: 
+C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/package/Memory_HeapProxy.h: 
+C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h: 
+C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IInstance.h: 
+C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IHeap.h: 
+C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Error.h: 
 C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/GPIO.h: 
 C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/UART.h: 
 ../Board.h: 
@@ -294,53 +344,10 @@ C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/../include/sys/timespec
 C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/sys/_timespec.h: 
 C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs/sched.h: 
 C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/BIOS.h: 
-C:/ti/xdctools_3_50_07_20_core/packages/xdc/std.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/stdarg.h: 
-C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/targets/arm/elf/std.h: 
-C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/targets/arm/elf/M3.h: 
-C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/targets/std.h: 
-C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/xdc.h: 
 C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h: 
-C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types__prologue.h: 
-C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/package/package.defs.h: 
-C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types__epilogue.h: 
 C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/BIOS__prologue.h: 
 C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/package/package.defs.h: 
 C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Error.h: 
-C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h: 
-C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Error__prologue.h: 
-C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Main.h: 
-C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h: 
-C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IModule.h: 
-C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h: 
-C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h: 
-C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IHeap.h: 
-C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h: 
-C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IInstance.h: 
-C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h: 
-C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IModule.h: 
-C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Error.h: 
-C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Memory.h: 
-C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h: 
-C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IModule.h: 
-C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IHeap.h: 
-C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Error.h: 
-C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/package/Memory_HeapProxy.h: 
-C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h: 
-C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IInstance.h: 
-C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IHeap.h: 
-C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Error.h: 
-C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IGateProvider.h: 
-C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h: 
-C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IInstance.h: 
-C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IModule.h: 
-C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/package/Main_Module_GateProxy.h: 
-C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h: 
-C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IInstance.h: 
-C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IGateProvider.h: 
-C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IModule.h: 
-C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h: 
-C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Error__epilogue.h: 
 C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h: 
 C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IModule.h: 
 C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IGateProvider.h: 
@@ -354,7 +361,6 @@ C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/knl/Tas
 C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h: 
 C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IInstance.h: 
 C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/knl/Task__prologue.h: 
-C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/knl/package/package.defs.h: 
 C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Error.h: 
 C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Assert.h: 
 C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h: 
@@ -389,9 +395,6 @@ C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h:
 C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Log__epilogue.h: 
 C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IHeap.h: 
 C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/knl/Queue.h: 
-C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h: 
-C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IInstance.h: 
-C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IModule.h: 
 C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IModule.h: 
 C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/interfaces/ITaskSupport.h: 
 C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h: 
@@ -473,3 +476,4 @@ C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IInstance.h:
 C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/IGateProvider.h: 
 C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/package/System_SupportProxy.h: 
 C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/package/System_Module_GateProxy.h: 
+C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/knl/Queue.h: 

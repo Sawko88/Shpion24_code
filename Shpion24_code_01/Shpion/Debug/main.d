@@ -222,6 +222,7 @@ main.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/devices/cc13x0/driver
 main.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/devices/cc13x0/driverlib/rf_ble_cmd.h
 main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/stdlib.h
 main.obj: ../uart.h
+main.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/knl/Queue.h
 main.obj: ../timer.h
 main.obj: ../gsm.h
 
@@ -447,5 +448,6 @@ C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/devices/cc13x0/driverlib/rf_pro
 C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/devices/cc13x0/driverlib/rf_ble_cmd.h: 
 C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/stdlib.h: 
 ../uart.h: 
+C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/knl/Queue.h: 
 ../timer.h: 
 ../gsm.h: 

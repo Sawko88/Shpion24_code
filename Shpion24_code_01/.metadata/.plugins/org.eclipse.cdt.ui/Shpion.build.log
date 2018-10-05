@@ -3,6 +3,62 @@
 
 "C:\\ti\\ccsv8\\utils\\bin\\gmake" -k -j 4 all -O 
  
-gmake[1]: 'Shpion.out' is up to date.
+Building file: "../CC1310_LAUNCHXL_fxns.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="CC1310_LAUNCHXL_fxns.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../CC1310_LAUNCHXL_fxns.c"
+Finished building: "../CC1310_LAUNCHXL_fxns.c"
+ 
+Building file: "../CC1310_LAUNCHXL.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="CC1310_LAUNCHXL.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../CC1310_LAUNCHXL.c"
+Finished building: "../CC1310_LAUNCHXL.c"
+ 
+Building file: "../ccfg.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="ccfg.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../ccfg.c"
+Finished building: "../ccfg.c"
+ 
+Building file: "../gsm.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="gsm.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../gsm.c"
+Finished building: "../gsm.c"
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="main.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../main.c"
+Finished building: "../main.c"
+ 
+Building file: "../timer.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="timer.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../timer.c"
+Finished building: "../timer.c"
+ 
+Building file: "../uart.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="uart.d_raw" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../uart.c"
+"../uart.c", line 57: warning #169-D: argument of type "messU *" is incompatible with parameter of type "ti_sysbios_knl_Queue_Elem *"
+Finished building: "../uart.c"
+ 
+Building file: "../smartrf_settings/smartrf_settings.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="smartrf_settings/smartrf_settings.d_raw" --obj_directory="smartrf_settings" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../smartrf_settings/smartrf_settings.c"
+Finished building: "../smartrf_settings/smartrf_settings.c"
+ 
+Building file: "../easylink/EasyLink.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="easylink/EasyLink.d_raw" --obj_directory="easylink" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../easylink/EasyLink.c"
+Finished building: "../easylink/EasyLink.c"
+ 
+Building file: "../smartrf_settings/smartrf_settings_predefined.c"
+Invoking: ARM Compiler
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --include_path="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/Shpion" --include_path="C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs" --include_path="C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include" --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on --preproc_with_compile --preproc_dependency="smartrf_settings/smartrf_settings_predefined.d_raw" --obj_directory="smartrf_settings" --cmd_file="E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/compiler.opt" "../smartrf_settings/smartrf_settings_predefined.c"
+Finished building: "../smartrf_settings/smartrf_settings_predefined.c"
+ 
+Building target: "Shpion.out"
+Invoking: ARM Linker
+"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl" -mv7M3 --code_state=16 --float_support=vfplib -me --define=DeviceFamily_CC13X0 --define=CCFG_FORCE_VDDR_HH=0 -g --diag_warning=225 --diag_warning=255 --diag_wrap=off --display_error_number --gen_func_subsections=on -z -m"Shpion.map" -i"C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/lib" --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Shpion_linkInfo.xml" --rom_model -o "Shpion.out" "./CC1310_LAUNCHXL.obj" "./CC1310_LAUNCHXL_fxns.obj" "./ccfg.obj" "./gsm.obj" "./main.obj" "./timer.obj" "./uart.obj" "./easylink/EasyLink.obj" "./smartrf_settings/smartrf_settings.obj" "./smartrf_settings/smartrf_settings_predefined.obj" "../CC1310_LAUNCHXL_TIRTOS.cmd" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/display/lib/display.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/grlib/lib/ccs/m3/grlib.a" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/rf/lib/rf_multiMode_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/lib/drivers_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/pdm/lib/pdm_cc13x0.aem3" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/dpl/lib/dpl_cc13x0.aem3" -l"E:/Shestakov/shpion24/Shpion24_code/Shpion24_code_01/tirtos_builds_CC1310_LAUNCHXL_release_ccs/Debug/configPkg/linker.cmd" -l"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/devices/cc13x0/driverlib/bin/ccs/driverlib.lib" -llibc.a 
+<Linking>
+Finished building target: "Shpion.out"
+ 
 
 **** Build Finished ****
