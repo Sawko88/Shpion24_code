@@ -7863,3 +7863,62 @@ java.lang.NullPointerException
 
 !ENTRY org.eclipse.e4.ui.workbench 1 0 2018-10-05 14:21:16.618
 !MESSAGE REX 1538738476616 Monitor thread discovered server process problem. Have set error page
+!SESSION 2018-10-05 15:52:01.885 -----------------------------------------------
+eclipse.buildId=4.7.1.M20171009-0410
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 4 0 2018-10-05 15:52:44.452
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 4 0 2018-10-05 15:52:44.488
+!MESSAGE debugServerDir=C:/ti/ccsv8/ccs_base/DebugServer
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-10-05 15:52:57.606
+!MESSAGE Removing part descriptor with the 'org.eclipse.wst.jsdt.ui.TypeHierarchy' id and the 'Hierarchy' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-10-05 15:52:57.612
+!MESSAGE Removing part descriptor with the 'org.eclipse.wst.jsdt.ui.PackageExplorer' id and the 'Script Explorer' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-10-05 15:52:57.613
+!MESSAGE Removing part descriptor with the 'org.eclipse.wst.jsdt.callhierarchy.view' id and the 'Call Hierarchy' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-10-05 15:52:57.615
+!MESSAGE Removing part descriptor with the 'org.eclipse.wst.jsdt.ui.SourceView' id and the 'Declaration' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-10-05 15:52:57.619
+!MESSAGE Removing part descriptor with the 'org.eclipse.wst.jsdt.ui.JavadocView' id and the 'Documentation' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-10-05 15:52:57.658
+!MESSAGE Removing part descriptor with the 'com.ti.ccstudio.debug.ui.msp430.targetVoltageView' id and the 'Target Voltage' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-10-05 15:52:57.678
+!MESSAGE Removing part descriptor with the 'com.ti.ccstudio.gui.composer.ui.applicationBrowserViewPart' id and the 'GUI Composer™ v1 Application Viewer' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-10-05 15:52:57.688
+!MESSAGE Removing part descriptor with the 'com.ti.dbgtrc.webapp.WebAppView' id and the 'WebApp View' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-10-05 15:52:58.361
+!MESSAGE Indexed 'Shpion' (10 sources, 24 headers) in 1,1 sec: 2 073 declarations; 2 737 references; 90 unresolved inclusions; 46 syntax errors; 1 274 unresolved names (21 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-10-05 15:53:00.587
+!MESSAGE Indexed 'tirtos_builds_CC1310_LAUNCHXL_release_ccs' (2 sources, 65 headers) in 1,5 sec: 4 915 declarations; 8 392 references; 37 unresolved inclusions; 6 syntax errors; 1 659 unresolved names (11 %)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2018-10-05 15:53:04.507
+!MESSAGE No repository found at http://software-dl.ti.com/ccs/non-esd/dvt/ccs6.0.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-10-05 16:03:50.798
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2018-10-05 16:03:50.807
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2018-10-05 16:33:49.026
+!MESSAGE Unable to locate file: /db/vtree/ademars/git_trees/avala-v/src/ti/sysbios/family/arm/m3/Hwi.c
+
+!ENTRY com.ti.ccstudio.debug 1 0 2018-10-05 16:41:19.939
+!MESSAGE DS_ERROR: Cortex_M3_0: GEL: Encountered a problem loading file: E:\Shestakov\shpion24\Shpion24_code\Shpion24_code_01\Shpion\Debug\Shpion.out Could not open file
+

@@ -66,7 +66,7 @@
 /* Undefine to not use async mode */
 #define RFEASYLINKTX_ASYNC
 
-#define RFEASYLINKTX_TASK_STACK_SIZE    512
+#define RFEASYLINKTX_TASK_STACK_SIZE    768
 #define RFEASYLINKTX_TASK_PRIORITY      3
 
 #define RFEASYLINKTX_BURST_SIZE         10

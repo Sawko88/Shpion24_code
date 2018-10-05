@@ -12,18 +12,29 @@
 #include <ti/sysbios/knl/Task.h>
 #include <xdc/runtime/System.h>
 #include <ti/sysbios/knl/Clock.h>
+#include "uart.h"
+#include <ti/sysbios/knl/Queue.h>
 
-#define TASK_STACK_SIZE_GSM    1024
+#define TASK_STACK_SIZE_GSM    512
 #define TASK_PRIORITY_GSM      3
 
 static Task_Struct task_gsm;    /* not static so you can see in ROV */
 static Task_Params taskParams_gsm;
 static uint8_t taskStack_gsm[TASK_STACK_SIZE_GSM];
 
+
+messU* messFromUart;
+
 void gsmFnx(UArg arg0, UArg arg1)
 {
     while(1){
         System_printf("Task gsm \r\n");
+        if (!Queue_empty(q)){
+            messFromUart = Queue_get(q);
+
+            System_printf("%s \r\n", messFromUart->mess);
+            //Queue_remove(messFromUart->_elem);
+        }
         Task_sleep((1000000 / Clock_tickPeriod));
     }
 }

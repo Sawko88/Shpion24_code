@@ -445,6 +445,6 @@ digraph configuration {
     ti_sysbios_rts_ti__bot -> ti_targets_arm_elf_M3__1_0_18__1_1 [ltail=cluster39];
     ti_targets_arm_elf_M3__1_0_18__1_1 [shape=record,label="ti.targets.arm.elf.M3|1,0,18.1,1",style=filled, fillcolor=lightgrey];
     ti_sysbios_utils__bot -> ti_targets_arm_elf_M3__1_0_18__1_1 [ltail=cluster41];
-    ti_targets_arm_elf_M3__1_0_18__1_3 [shape=record,label="ti.targets.arm.elf.M3|1,0,18.1,3",style=filled, fillcolor=lightgrey];
-    configPkg__top -> ti_targets_arm_elf_M3__1_0_18__1_3 [ltail=cluster42];
+    ti_targets_arm_elf_M3__1_0_18__1_1 [shape=record,label="ti.targets.arm.elf.M3|1,0,18.1,1",style=filled, fillcolor=lightgrey];
+    configPkg__top -> ti_targets_arm_elf_M3__1_0_18__1_1 [ltail=cluster42];
 }

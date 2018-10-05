@@ -18,11 +18,11 @@ CCOPTS = --endian=little -mv7M3 --abi=eabi -q -ms --opt_for_speed=0  --program_l
 
 BIOS_INC = -I"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/"
 ANNEX_INCS =  -IC:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/posix/ccs
-INCS = $(BIOS_INC) $(ANNEX_INCS) -I"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/" -I"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/" -I"C:/ti/xdctools_3_50_07_20_core/packages/" -I"../" -I"/packages//"  -IC:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include 
+INCS = $(BIOS_INC) $(ANNEX_INCS) -I"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/" -I"C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/" -I"C:/ti/xdctools_3_50_07_20_core/packages/" -I"../" -I"/packages//"  -IC:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include 
 
-CC = C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl -c $(CCOPTS)
-ASM = C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armcl -c $(CCOPTS)
-AR = C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/bin/armar rq
+CC = C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/bin/armcl -c $(CCOPTS)
+ASM = C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/bin/armcl -c $(CCOPTS)
+AR = C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/bin/armar rq
 
 DEL = C:/ti/xdctools_3_50_07_20_core/packages/../bin/rm -f
 CP = C:/ti/xdctools_3_50_07_20_core/packages/../bin/cp -f

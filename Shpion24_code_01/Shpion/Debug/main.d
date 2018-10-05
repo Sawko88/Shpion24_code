@@ -1,22 +1,22 @@
 # FIXED
 
 main.obj: ../main.c
-main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/stdlib.h
-main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/_ti_config.h
-main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/linkage.h
-main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/sys/cdefs.h
+main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stdlib.h
+main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/_ti_config.h
+main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/linkage.h
+main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/sys/cdefs.h
 main.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/std.h
-main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/stdarg.h
-main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/sys/_types.h
-main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/machine/_types.h
-main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/stddef.h
+main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stdarg.h
+main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/sys/_types.h
+main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/machine/_types.h
+main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stddef.h
 main.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/targets/arm/elf/std.h
 main.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/targets/arm/elf/M3.h
 main.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/targets/std.h
-main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/stdint.h
-main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/sys/stdint.h
-main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/machine/_stdint.h
-main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/sys/_stdint.h
+main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stdint.h
+main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/sys/stdint.h
+main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/machine/_stdint.h
+main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/sys/_stdint.h
 main.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Assert.h
 main.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/xdc.h
 main.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h
@@ -193,7 +193,7 @@ main.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbi
 main.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/knl/Clock.h
 main.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/knl/package/Clock_TimerProxy.h
 main.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/PIN.h
-main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/stdbool.h
+main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stdbool.h
 main.obj: ../Board.h
 main.obj: ../CC1310_LAUNCHXL.h
 main.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/devices/cc13x0/driverlib/ioc.h
@@ -217,32 +217,32 @@ main.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/dpl/Semaphore
 main.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/devices/DeviceFamily.h
 main.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/devices/cc13x0/driverlib/rf_common_cmd.h
 main.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/devices/cc13x0/driverlib/rf_mailbox.h
-main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/string.h
+main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/string.h
 main.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/devices/cc13x0/driverlib/rf_prop_cmd.h
 main.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/devices/cc13x0/driverlib/rf_ble_cmd.h
-main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/stdlib.h
+main.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stdlib.h
 main.obj: ../uart.h
 main.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/knl/Queue.h
 main.obj: ../timer.h
 main.obj: ../gsm.h
 
 ../main.c: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/stdlib.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/_ti_config.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/linkage.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/sys/cdefs.h: 
+C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stdlib.h: 
+C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/_ti_config.h: 
+C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/linkage.h: 
+C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/sys/cdefs.h: 
 C:/ti/xdctools_3_50_07_20_core/packages/xdc/std.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/stdarg.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/sys/_types.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/machine/_types.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/stddef.h: 
+C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stdarg.h: 
+C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/sys/_types.h: 
+C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/machine/_types.h: 
+C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stddef.h: 
 C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/targets/arm/elf/std.h: 
 C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/targets/arm/elf/M3.h: 
 C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/targets/std.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/stdint.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/sys/stdint.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/machine/_stdint.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/sys/_stdint.h: 
+C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stdint.h: 
+C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/sys/stdint.h: 
+C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/machine/_stdint.h: 
+C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/sys/_stdint.h: 
 C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Assert.h: 
 C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/xdc.h: 
 C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/Types.h: 
@@ -419,7 +419,7 @@ C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/knl/Eve
 C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/knl/Clock.h: 
 C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/knl/package/Clock_TimerProxy.h: 
 C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/PIN.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/stdbool.h: 
+C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stdbool.h: 
 ../Board.h: 
 ../CC1310_LAUNCHXL.h: 
 C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/devices/cc13x0/driverlib/ioc.h: 
@@ -443,10 +443,10 @@ C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/drivers/dpl/SemaphoreP.h:
 C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/devices/DeviceFamily.h: 
 C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/devices/cc13x0/driverlib/rf_common_cmd.h: 
 C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/devices/cc13x0/driverlib/rf_mailbox.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/string.h: 
+C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/string.h: 
 C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/devices/cc13x0/driverlib/rf_prop_cmd.h: 
 C:/ti/simplelink_cc13x0_sdk_2_20_00_38/source/ti/devices/cc13x0/driverlib/rf_ble_cmd.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/stdlib.h: 
+C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stdlib.h: 
 ../uart.h: 
 C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/knl/Queue.h: 
 ../timer.h: 

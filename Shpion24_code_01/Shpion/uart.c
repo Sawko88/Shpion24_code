@@ -39,7 +39,7 @@ int countRX = 0;
 
 
 static messU messUart;
-static Queue_Handle q;
+
 
 static void readCallback(UART_Handle handle, void *rxBuf, size_t size)
 {
@@ -54,7 +54,7 @@ static void readCallback(UART_Handle handle, void *rxBuf, size_t size)
     } else {
         messUart.mess = (char*)txBuf;
         messUart.size = countRX;
-        Queue_enqueue(q, &messUart);
+        Queue_put(q, &messUart);
         UART_write(handle, txBuf, countRX);
 
         countRX = 0;

@@ -2,17 +2,17 @@
 
 gsm.obj: ../gsm.c
 gsm.obj: ../gsm.h
-gsm.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/stdint.h
-gsm.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/sys/stdint.h
-gsm.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/sys/cdefs.h
-gsm.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/sys/_types.h
-gsm.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/machine/_types.h
-gsm.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/machine/_stdint.h
-gsm.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/sys/_stdint.h
-gsm.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/stddef.h
+gsm.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stdint.h
+gsm.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/sys/stdint.h
+gsm.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/sys/cdefs.h
+gsm.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/sys/_types.h
+gsm.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/machine/_types.h
+gsm.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/machine/_stdint.h
+gsm.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/sys/_stdint.h
+gsm.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stddef.h
 gsm.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/BIOS.h
 gsm.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/std.h
-gsm.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/stdarg.h
+gsm.obj: C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stdarg.h
 gsm.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/targets/arm/elf/std.h
 gsm.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/targets/arm/elf/M3.h
 gsm.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/targets/std.h
@@ -166,20 +166,23 @@ gsm.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/package/System_Supp
 gsm.obj: C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/package/System_Module_GateProxy.h
 gsm.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/knl/Clock.h
 gsm.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/knl/package/Clock_TimerProxy.h
+gsm.obj: ../uart.h
+gsm.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/knl/Queue.h
+gsm.obj: C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/knl/Queue.h
 
 ../gsm.c: 
 ../gsm.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/stdint.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/sys/stdint.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/sys/cdefs.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/sys/_types.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/machine/_types.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/machine/_stdint.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/sys/_stdint.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/stddef.h: 
+C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stdint.h: 
+C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/sys/stdint.h: 
+C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/sys/cdefs.h: 
+C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/sys/_types.h: 
+C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/machine/_types.h: 
+C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/machine/_stdint.h: 
+C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/sys/_stdint.h: 
+C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stddef.h: 
 C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/BIOS.h: 
 C:/ti/xdctools_3_50_07_20_core/packages/xdc/std.h: 
-C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.3.LTS/include/stdarg.h: 
+C:/ti/ccsv8/tools/compiler/ti-cgt-arm_18.1.1.LTS/include/stdarg.h: 
 C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/targets/arm/elf/std.h: 
 C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/targets/arm/elf/M3.h: 
 C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/targets/std.h: 
@@ -333,3 +336,6 @@ C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/package/System_SupportProxy.
 C:/ti/xdctools_3_50_07_20_core/packages/xdc/runtime/package/System_Module_GateProxy.h: 
 C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/knl/Clock.h: 
 C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/knl/package/Clock_TimerProxy.h: 
+../uart.h: 
+C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/knl/Queue.h: 
+C:/ti/simplelink_cc13x0_sdk_2_20_00_38/kernel/tirtos/packages/ti/sysbios/knl/Queue.h: 

@@ -15,6 +15,8 @@ typedef struct messU {
       int size;
 } messU;
 
+Queue_Handle q;
+
 void UARTinit(void);
 void UARTpthread(void);
 //void *mainThread(void *arg0)
